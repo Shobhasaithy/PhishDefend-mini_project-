@@ -96,6 +96,26 @@ Phishing-Detection-Advanced/
 - API keys should be properly secured
 - Regular updates of dependencies are recommended
 
+
+## Screenshots
+## User Interface
+<img width="1075" height="633" alt="image" src="https://github.com/user-attachments/assets/78f89b05-96b4-449a-bc04-22028c1b855e" />
+
+## PhishDefend – URL Scanner
+-Prediction: Phishing Detected
+<img width="2010" height="1514" alt="image" src="https://github.com/user-attachments/assets/8420a4fa-2832-4609-99a2-dfaf85e4a976" />
+
+## PhishDefend – URL Scanner
+-Prediction: Link is Safe
+<img width="2098" height="1538" alt="image" src="https://github.com/user-attachments/assets/6d85efdb-7b4e-4b04-9f10-43383538860d" />
+
+## Awareness Quiz
+<img width="970" height="580" alt="image" src="https://github.com/user-attachments/assets/5b1d6783-1fb5-4024-8ec4-b267d98f9c8f" />
+
+## Chatbot 
+<img width="392" height="562" alt="image" src="https://github.com/user-attachments/assets/df805bb0-1cae-4f07-af36-781f3a85c185" />
+
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
