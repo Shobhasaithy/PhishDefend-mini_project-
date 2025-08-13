@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phishing Detection</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    .status {
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    .safe {
+      background-color: #dff0d8;
+      color: #3c763d;
+    }
+    .dangerous {
+      background-color: #f2dede;
+      color: #a94442;
+    }
+    .loading {
+      background-color: #d9edf7;
+      color: #31708f;
+    }
+    .url-input {
+      width: 100%;
+      padding: 8px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .features {
+      font-size: 12px;
+      margin-top: 10px;
+    }
+    .instructions {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Phishing Detection</h2>
+  <div class="instructions">
+    Select a URL on any webpage and click "Check Selected URL", or paste a URL below to check it.
+  </div>
+  <input type="text" id="urlInput" class="url-input" placeholder="Enter or paste URL here">
+  <div id="status" class="status">Ready to analyze URL</div>
+  <div id="features" class="features"></div>
+  <button id="checkSelected">Check Selected URL</button>
+  <button id="checkInput">Check Entered URL</button>
+  <script src="popup.js"></script>
+</body>
+</html>
