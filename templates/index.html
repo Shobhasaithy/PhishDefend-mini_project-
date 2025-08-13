@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhishDefend – Phishing Detection Web App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='custom.css') }}" rel="stylesheet">
+    <style>
+        body, html { height: 100%; margin: 0; background: #f5f7fa; }
+        .navbar-custom {
+            background: #181f39;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+            padding: 0 40px;
+        }
+        .navbar-custom .navbar-brand {
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.7em;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+        }
+        .navbar-custom .navbar-brand i {
+            color: #feb47b;
+            margin-right: 10px;
+        }
+        .navbar-custom .nav-link {
+            color: #fff;
+            font-size: 1.1em;
+            margin-right: 18px;
+            transition: color 0.2s;
+        }
+        .navbar-custom .nav-link.active, .navbar-custom .nav-link:hover {
+            color: #feb47b;
+        }
+        .navbar-custom .btn-contact {
+            background: #2563eb;
+            color: #fff;
+            border-radius: 8px;
+            padding: 8px 24px;
+            font-weight: 500;
+            font-size: 1em;
+            margin-left: 18px;
+            box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+            border: none;
+            transition: background 0.2s;
+        }
+        .navbar-custom .btn-contact:hover {
+            background: #1d4ed8;
+            color: #fff;
+        }
+        .main-content {
+            margin-top: 90px;
+            max-width: 1100px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 20px 40px 20px;
+        }
+        .section {
+            display: none;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+            padding: 48px 40px 40px 40px;
+            margin-bottom: 32px;
+        }
+        .section.active {
+            display: block;
+        }
+        .section h2 {
+            color: #181f39;
+            font-size: 2em;
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+        .section ul {
+            margin-top: 18px;
+        }
+        .hero-box {
+            background: linear-gradient(90deg, #f5f7fa 60%, #e3eafe 100%);
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+            padding: 40px 32px 40px 32px;
+            margin-bottom: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .hero-box .hero-content {
+            max-width: 60%;
+        }
+        .hero-box h1 {
+            color: #181f39;
+            font-size: 2.2em;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        .hero-box p {
+            color: #3b4252;
+            font-size: 1.15em;
+            margin-bottom: 24px;
+        }
+        .hero-box .btn-contact {
+            font-size: 1.1em;
+            padding: 12px 32px;
+        }
+        .hero-box .hero-img {
+            max-width: 180px;
+            opacity: 0.13;
+        }
+        .chatbot-widget {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+            padding: 18px 28px;
+            z-index: 2000;
+            min-width: 220px;
+            text-align: center;
+        }
+        .chatbot-widget h3 {
+            margin: 0;
+            color: #232526;
+            font-size: 1.1em;
+        }
+        @media (max-width: 900px) {
+            .main-content { margin-top: 120px; padding: 0 5px; }
+            .hero-box { flex-direction: column; align-items: flex-start; }
+            .hero-box .hero-content { max-width: 100%; }
+            .hero-box .hero-img { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <a class="navbar-brand" href="#"><i class="fas fa-shield-alt"></i> PhishDefend <span style="font-size:0.6em; font-weight:400; margin-left:10px; color:#feb47b;">Detect. Protect. Stay Safe.</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item"><a class="nav-link active" href="#" data-section="home-section">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-section="about-section">About Project</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-section="detector-section">URL Detector</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-section="awareness-section">Awareness Training</a></li>
+                <li class="nav-item"><button class="btn btn-contact" onclick="document.querySelector('[data-section=contact-section]').click()">Detector</button></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main-content">
+        <div class="section active" id="home-section" style="padding:0; background:none; box-shadow:none;">
+            <!-- Hero Section -->
+            <div style="background: linear-gradient(120deg, #e0e7ff 60%, #f5f7fa 100%); display: flex; align-items: center; justify-content: space-between; border-radius: 18px; padding: 48px 40px 32px 40px; margin-bottom: 0; min-height: 340px;">
+                <div style="max-width: 55%;">
+                    <h1 style="font-size:2.8em; font-weight:800; color:#181f39; margin-bottom:0.2em;">🛡️ PhishDefend</h1>
+                    <h2 style="font-size:1.5em; color:#2563eb; font-weight:600; margin-bottom:1.2em;">Detect. Protect. Stay Safe.</h2>
+                    <button class="btn btn-contact" style="font-size:1.1em; padding:12px 32px;" onclick="document.getElementById('about-section').scrollIntoView({behavior:'smooth'});">Learn How It Works</button>
+                </div>
+                <img src="https://cdn-icons-png.flaticon.com/512/2092/2092663.png" alt="Cybersecurity Shield Illustration" style="max-width:320px; width:40vw; min-width:180px; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));">
+            </div>
+            <!-- Section 1: What is Phishing? -->
+            <div style="display:flex; align-items:center; gap:32px; margin:48px 0 32px 0;">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Phishing Icon" style="width:70px;">
+                <div>
+                    <h3 style="font-size:1.3em; font-weight:700; color:#181f39; margin-bottom:0.5em;">What is Phishing?</h3>
+                    <p style="font-size:1.1em; color:#333; margin:0;">
+                        Phishing is a type of cyberattack where malicious actors try to trick people into revealing sensitive information such as passwords, credit card numbers, or personal details. Attackers often disguise themselves as trustworthy entities like banks, popular websites, or colleagues by sending fake emails, messages, or creating fraudulent websites.
+                    </p>
+                    <p style="font-size:1.1em; color:#333; margin:0.7em 0 0 0;">
+                        These deceptive messages usually urge victims to click on a link or download an attachment, leading to:
+                    </p>
+                    <ul style="font-size:1.08em; color:#333; margin:0.5em 0 0 1.2em;">
+                        <li>Theft of personal or financial information</li>
+                        <li>Unauthorized access to online accounts</li>
+                        <li>Identity theft</li>
+                        <li>Financial loss</li>
+                    </ul>
+                    <p style="font-size:1.1em; color:#333; margin:0.7em 0 0 0;">
+                        Phishing attacks are becoming increasingly sophisticated, making it crucial to be vigilant and use tools like <strong>PhishDefend</strong> to help detect and avoid falling victim to these scams.
+                    </p>
+                </div>
+            </div>
+            <!-- Section 2: Why Phishing is Dangerous -->
+            <div style="background:#fff; border-radius:14px; box-shadow:0 2px 12px rgba(0,0,0,0.06); padding:32px 24px; margin-bottom:32px;">
+                <h3 style="font-size:1.2em; font-weight:700; color:#181f39; margin-bottom:1em;">Why Phishing is Dangerous</h3>
+                <p style="font-size:1.1em; color:#333; margin-bottom: 1em;">
+                    Phishing attacks pose serious risks to individuals and organizations alike. Here's why phishing is so harmful:
+                </p>
+                <ul style="font-size:1.08em; color:#333; margin:0; padding-left:1.2em;">
+                    <li style="margin-bottom:0.7em;"><strong>Financial Loss:</strong> Attackers can steal your bank details or credit card information, leading to unauthorized transactions and money theft.</li>
+                    <li style="margin-bottom:0.7em;"><strong>Identity Theft:</strong> Personal information stolen via phishing can be used to impersonate you, causing long-term damage to your reputation and credit.</li>
+                    <li style="margin-bottom:0.7em;"><strong>Data Breaches:</strong> For companies, phishing can lead to access to confidential business data, customer records, and intellectual property.</li>
+                    <li style="margin-bottom:0.7em;"><strong>Account Compromise:</strong> Phishing can give attackers control over your email, social media, or work accounts, which can be further exploited.</li>
+                    <li><strong>Loss of Trust:</strong> Falling victim to phishing can damage personal or brand credibility and trustworthiness.</li>
+                </ul>
+                <p style="font-size:1.1em; color:#333; margin-top: 1em; margin-bottom: 0;">
+                    Because phishing tactics are constantly evolving, protecting yourself with awareness and advanced detection tools like <strong>PhishDefend</strong> is essential.
+                </p>
+            </div>
+            <!-- Common Phishing Techniques -->
+            <div style="background:#fff; border-radius:14px; box-shadow:0 2px 12px rgba(0,0,0,0.06); padding:32px 24px; margin-top:36px;">
+                <h3 style="font-size:1.2em; font-weight:700; color:#181f39; margin-bottom:1em;">Common Phishing Techniques</h3>
+                <div style="display:flex; flex-wrap:wrap; gap:32px;">
+                    <div style="flex:1; min-width:180px; display:flex; align-items:center; gap:14px;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="Email Spoofing" style="width:36px;">
+                        <span>Email Spoofing</span>
+                    </div>
+                    <div style="flex:1; min-width:180px; display:flex; align-items:center; gap:14px;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" alt="Fake Websites" style="width:36px;">
+                        <span>Fake Websites</span>
+                    </div>
+                    <div style="flex:1; min-width:180px; display:flex; align-items:center; gap:14px;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png" alt="Social Engineering" style="width:36px;">
+                        <span>Social Engineering</span>
+                    </div>
+                    <div style="flex:1; min-width:180px; display:flex; align-items:center; gap:14px;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135776.png" alt="Spear Phishing" style="width:36px;">
+                        <span>Spear Phishing</span>
+                    </div>
+                    <div style="flex:1; min-width:180px; display:flex; align-items:center; gap:14px;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" alt="Smishing" style="width:36px;">
+                        <span>Smishing (SMS Phishing)</span>
+                    </div>
+                </div>
+            </div>
+            <!-- How to Spot a Phishing Attempt -->
+            <div style="background:#f5f7fa; border-radius:14px; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:32px 24px; margin-top:36px;">
+                <h3 style="font-size:1.2em; font-weight:700; color:#181f39; margin-bottom:1em;">How to Spot a Phishing Attempt</h3>
+                <ul style="font-size:1.08em; color:#333; margin:0; padding-left:1.2em;">
+                    <li style="margin-bottom:0.7em;"><span style="color:#eab308; font-size:1.2em; margin-right:6px;">⚠️</span>Check for suspicious sender addresses and URLs.</li>
+                    <li style="margin-bottom:0.7em;"><span style="color:#eab308; font-size:1.2em; margin-right:6px;">⚠️</span>Look for urgent or threatening language.</li>
+                    <li style="margin-bottom:0.7em;"><span style="color:#eab308; font-size:1.2em; margin-right:6px;">⚠️</span>Beware of requests for sensitive information.</li>
+                    <li style="margin-bottom:0.7em;"><span style="color:#eab308; font-size:1.2em; margin-right:6px;">⚠️</span>Check for poor spelling and grammar.</li>
+                    <li><span style="color:#eab308; font-size:1.2em; margin-right:6px;">⚠️</span>Hover over links to preview the real URL before clicking.</li>
+                </ul>
+            </div>
+            <!-- Recent Phishing Statistics -->
+            <div style="background:#fff; border-radius:14px; box-shadow:0 2px 12px rgba(0,0,0,0.06); padding:32px 24px; margin-top:36px;">
+                <h3 style="font-size:1.2em; font-weight:700; color:#181f39; margin-bottom:1em;">Recent Phishing Statistics</h3>
+                <div style="display:flex; align-items:center; gap:32px; flex-wrap:wrap;">
+                    <div style="flex:1; min-width:180px;">
+                        <span style="font-size:2em; color:#2563eb; font-weight:700;">3.4B+</span><br>
+                        <span style="color:#333;">Phishing emails sent daily (2024)</span>
+                    </div>
+                    <div style="flex:1; min-width:180px;">
+                        <span style="font-size:2em; color:#e11d48; font-weight:700;">83%</span><br>
+                        <span style="color:#333;">of organizations experienced phishing attacks in 2023</span>
+                    </div>
+                    <div style="flex:1; min-width:180px;">
+                        <span style="font-size:2em; color:#16a34a; font-weight:700;">$17,700</span><br>
+                        <span style="color:#333;">lost every minute to phishing scams</span>
+                    </div>
+                    <!-- Simple SVG bar chart -->
+                    <div style="flex:2; min-width:220px;">
+                        <svg width="180" height="60" viewBox="0 0 180 60">
+                            <rect x="10" y="30" width="30" height="25" fill="#2563eb"/>
+                            <rect x="50" y="10" width="30" height="45" fill="#e11d48"/>
+                            <rect x="90" y="40" width="30" height="15" fill="#16a34a"/>
+                            <rect x="130" y="20" width="30" height="35" fill="#fbbf24"/>
+                        </svg>
+                        <div style="font-size:0.95em; color:#888;">Phishing trends (bar chart, 2022-2024)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="about-section">
+            <h2>📘 About the Project – PhishDefend</h2>
+            <p style="font-size:1.1em; color:#333; margin-bottom: 1.5em;">
+                PhishDefend is a smart web-based tool designed to detect phishing URLs and help users stay safe online. It uses machine learning techniques to analyze website links and determine whether they are safe or potentially malicious.
+            </p>
+            <h3 style="font-size:1.2em; font-weight:700; color:#181f39; margin-bottom:1em;">🔍 How It Works:</h3>
+            <div style="margin-bottom: 1.5em;">
+                <strong>User Input</strong><br>
+                <p style="font-size:1.05em; color:#333; margin: 0.5em 0 0.5em 1em;">The user pastes a URL into the system.</p>
+            </div>
+            <div style="margin-bottom: 1.5em;">
+                <strong>Feature Extraction</strong><br>
+                <p style="font-size:1.05em; color:#333; margin: 0.5em 0 0.5em 1em;">The system extracts multiple features from the URL, such as:</p>
+                <ul style="font-size:1em; color:#333; margin:0; padding-left: 2.5em;">
+                    <li>URL length</li>
+                    <li>Presence of suspicious characters (like @, //)</li>
+                    <li>Number of dots or hyphens</li>
+                    <li>Use of HTTPS</li>
+                    <li>Domain age (if available)</li>
+                    <li>Subdomain structure</li>
+                </ul>
+            </div>
+            <div style="margin-bottom: 1.5em;">
+                <strong>ML Model Prediction</strong><br>
+                <p style="font-size:1.05em; color:#333; margin: 0.5em 0 0.5em 1em;">These features are fed into a trained machine learning model (e.g., Random Forest, Decision Tree, or SVM), which classifies the URL as either:</p>
+                <ul style="font-size:1em; color:#333; margin:0; padding-left: 2.5em;">
+                    <li>✅ Legitimate</li>
+                    <li>🚫 Phishing</li>
+                </ul>
+            </div>
+             <div style="margin-bottom: 1.5em;">
+                <strong>Result Displayed to User</strong><br>
+                <p style="font-size:1.05em; color:#333; margin: 0.5em 0 0 1em;">The result is shown along with a confidence score and advice on whether to proceed or avoid the link.</p>
+            </div>
+            <h3 style="font-size:1.2em; font-weight:700; color:#181f39; margin-top:1.5em; margin-bottom:1em;">🎯 Purpose of the Project</h3>
+            <ul style="font-size:1.08em; color:#333; margin:0; padding-left:1.2em;">
+                <li style="margin-bottom:0.7em;">Help users identify and avoid phishing attacks by analyzing suspicious URLs.</li>
+                <li style="margin-bottom:0.7em;">Provide a simple, AI-powered tool that anyone can use to check if a website is safe.</li>
+                <li style="margin-bottom:0.7em;">Promote awareness about phishing threats and encourage safe browsing habits.</li>
+                <li style="margin-bottom:0.7em;">Demonstrate how machine learning can solve real-world cybersecurity problems.</li>
+                <li>Serve as an educational tool for students and developers interested in cyber defense technologies.</li>
+            </ul>
+            <h3 style="font-size:1.2em; font-weight:700; color:#181f39; margin-top:1.5em; margin-bottom:1em;">🌍 Real-World Impact</h3>
+            <ul style="font-size:1.08em; color:#333; margin:0; padding-left:1.2em;">
+                <li style="margin-bottom:0.7em;"><strong>🛡️ Protecting Users Online:</strong> Prevents users from falling victim to phishing scams, reducing financial loss and identity theft.</li>
+                <li style="margin-bottom:0.7em;"><strong>🏢 Supporting Organizations:</strong> Can be integrated into awareness campaigns or tools used by companies to protect employees from malicious links.</li>
+                <li style="margin-bottom:0.7em;"><strong>📚 Educating the Public:</strong> Encourages learning about phishing tactics and promotes better online decision-making.</li>
+                <li><strong>⚠️ Spreading Awareness:</strong> Helps users understand the risks of phishing, making the internet a safer place for everyone.</li>
+            </ul>
+        </div>
+        <div class="section" id="detector-section">
+            <div style="text-align:center; margin-bottom: 24px;">
+                <span style="font-size:2.5em;">🔎</span>
+                <h2 style="font-weight:800; color:#2563eb; margin: 0.3em 0 0.2em 0; font-size:2em;">Scan Your Link for Safety!</h2>
+                <div style="color:#444; font-size:1.15em; margin-bottom:0.7em;">Worried about a suspicious link? Paste it below and let <b>PhishDefend</b> check it for you in seconds.<br>Stay safe, stay smart!</div>
+            </div>
+            <form id="urlForm" style="margin-bottom: 20px;">
+                <div class="input-group">
+                    <input type="url" id="urlInput" class="form-control" placeholder="Paste a URL to scan..." required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px; font-size: 1em;">
+                    <button type="submit" class="btn btn-primary custom-analyze">
+                        <i class="fas fa-search"></i> Scan Now
+                    </button>
+                </div>
+            </form>
+            <div id="loadingSpinner" class="text-center d-none">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2">Analyzing URL...</p>
+            </div>
+            <div id="resultCard" class="d-none">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="resultContent"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="errorAlert" class="alert alert-danger d-none" role="alert"></div>
+        </div>
+        <div class="section" id="awareness-section">
+            <div class="quiz-container" style="max-width: 800px; margin: 2rem auto; padding: 2rem; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1); background: white;">
+                <h2 class="text-center mb-4">Can You Spot the Phish? 🎯</h2>
+                
+                <div class="did-you-know" style="background: #e7f1ff; padding: 1rem; border-radius: 8px; margin: 1rem 0;">
+                    <h5>💡 Did You Know?</h5>
+                    <p id="didYouKnowText">Phishing attacks account for more than 80% of reported security incidents.</p>
+                </div>
+
+                <div class="progress-container" style="margin-bottom: 2rem;">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%"></div>
+                    </div>
+                    <small class="text-muted">Question <span id="currentQuestion">1</span> of <span id="totalQuestions">10</span></small>
+                </div>
+
+                <div id="quizContent">
+                    <!-- Questions will be dynamically inserted here -->
+                </div>
+
+                <div class="score-display" style="display: none; text-align: center; margin: 2rem 0;">
+                    <h2>Quiz Complete! 🎉</h2>
+                    <p>Your Score: <span id="finalScore">0</span>/10</p>
+                    <button class="btn btn-primary" onclick="restartQuiz()">Try Again</button>
+                    <button class="btn btn-outline-primary ms-2" onclick="shareScore()">Share Score</button>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="contact-section">
+            <h2>Contact Us</h2>
+            <form style="max-width: 400px; margin-top: 24px;">
+                <div class="mb-3">
+                    <label for="contactName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="contactName" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="contactEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="contactEmail" placeholder="you@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="contactMsg" class="form-label">Message</label>
+                    <textarea class="form-control" id="contactMsg" rows="3" placeholder="Type your message..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div style="margin-top: 32px;">
+                <strong>Or reach us at:</strong>
+                <ul>
+                    <li>Email: <a href="mailto:phishdefend@example.com">phishdefend@example.com</a></li>
+                    <li>GitHub: <a href="https://github.com/phishdefend" target="_blank">github.com/phishdefend</a></li>
+                    <li>LinkedIn: <a href="https://linkedin.com/company/phishdefend" target="_blank">linkedin.com/company/phishdefend</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="chatbot-toggle-btn" style="position: fixed; bottom: 30px; right: 30px; z-index: 2100;">
+            <button onclick="toggleChatbot()" style="background: #2563eb; color: #fff; border: none; border-radius: 50%; width: 56px; height: 56px; box-shadow: 0 4px 16px rgba(0,0,0,0.13); font-size: 1.7em; display: flex; align-items: center; justify-content: center; cursor: pointer;">
+                <i class="fas fa-comments"></i>
+            </button>
+        </div>
+        <div id="chatbot-widget" class="chatbot-widget" style="display:none; position: fixed; bottom: 100px; right: 30px; width: 400px; max-width: 95vw;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <h3 style="margin: 0; color: #232526; font-size: 1.1em;">Phishing Detection Chatbot</h3>
+                <button onclick="toggleChatbot()" style="background: none; border: none; font-size: 1.2em; color: #888; cursor: pointer;">&times;</button>
+            </div>
+            <div id="chatbox" style="height: 300px; overflow-y: auto; padding: 12px; border-bottom: 2px solid #ddd; background: #f5f5f5; border-radius: 8px;">
+                <p class="bot-message">Welcome to the Phishing Detection Assistant! I can help you understand phishing threats and analyze URLs. How can I assist you today?</p>
+            </div>
+            <div style="display: flex;">
+                <input type="text" id="userInput" placeholder="Ask about phishing detection..." style="width: calc(100% - 70px); padding: 10px; border: none; border-bottom-left-radius: 8px; font-size: 14px; outline: none; color: #333; background-color: #f5f5f5;">
+                <button onclick="sendMessage()" style="width: 70px; padding: 10px 0; border: none; border-bottom-right-radius: 8px; background-color: #2563eb; color: #fff; font-size: 14px; cursor: pointer;">Send</button>
+            </div>
+        </div>
+        <footer style="text-align:center; color:#888; font-size:0.95em; margin-top:30px;">
+            <span>© 2025 PhishDefend | <a href="https://github.com/phishdefend" target="_blank">GitHub</a></span>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script>
+        // Navbar navigation logic
+        document.querySelectorAll('.navbar-custom .nav-link').forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelectorAll('.navbar-custom .nav-link').forEach(function(l) { l.classList.remove('active'); });
+                link.classList.add('active');
+                var section = link.getAttribute('data-section');
+                document.querySelectorAll('.section').forEach(function(sec) {
+                    sec.classList.remove('active');
+                });
+                if(section) document.getElementById(section).classList.add('active');
+            });
+        });
+        // Show Home section by default
+        document.getElementById('home-section').classList.add('active');
+        // Chatbot logic
+        const chatbox = document.getElementById('chatbox');
+        const userInput = document.getElementById('userInput');
+        const chatbotWidget = document.getElementById('chatbot-widget');
+        const chatbotToggleBtn = document.getElementById('chatbot-toggle-btn');
+        function toggleChatbot() {
+            if (chatbotWidget.style.display === 'none' || chatbotWidget.style.display === '') {
+                chatbotWidget.style.display = 'block';
+            } else {
+                chatbotWidget.style.display = 'none';
+            }
+        }
+        const responses = {
+            'hi': ["Hello! I'm your Phishing Detection Assistant. How can I help you today?", "Hi there! I can help you analyze URLs and understand phishing threats. What would you like to know?"],
+            'hello': ["Hello! I'm your Phishing Detection Assistant. How can I help you today?", "Hi there! I can help you analyze URLs and understand phishing threats. What would you like to know?"],
+            'what is phishing': ["Phishing is a cyber attack where attackers impersonate legitimate entities to trick users into revealing sensitive information like passwords or credit card details. They often use fake websites that look similar to legitimate ones."],
+            'how does your phishing detection work': ["Our system analyzes URLs using machine learning to detect potential phishing attempts. It examines various features like domain age, SSL certificates, URL structure, and more to determine if a website is legitimate or suspicious."],
+            'what makes a url suspicious': ["Several factors can make a URL suspicious: misspelled domain names (like 'googgle.com'), unusual domain extensions, excessive use of special characters, or domains that are very new. Our system checks these and many other indicators."],
+            'how accurate is your detection': ["Our phishing detection system uses advanced machine learning and has a high accuracy rate. However, we apply a 75% confidence threshold to reduce false positives and ensure reliable results."],
+            'can you check a url for me': ["Yes! You can use our URL analysis tool on the main page. Just enter the URL you want to check, and our system will analyze it for potential phishing threats."],
+            'what should i do if i find a phishing site': ["If you encounter a phishing site: 1) Do not enter any personal information, 2) Report it to relevant authorities, 3) If you accidentally entered sensitive information, change your passwords immediately and monitor your accounts."],
+            'how can i protect myself from phishing': ["To protect yourself from phishing: 1) Always verify URLs before clicking, 2) Use our URL checker tool, 3) Enable two-factor authentication, 4) Keep your software updated, 5) Be cautious of unsolicited emails or messages asking for personal information."],
+            'what are common phishing tactics': ["Common phishing tactics include: 1) Fake login pages, 2) Urgent requests for action, 3) Offers that seem too good to be true, 4) Emails pretending to be from trusted organizations, 5) Messages creating a sense of urgency or fear."],
+            'how do i report a phishing attempt': ["You can report phishing attempts to: 1) Your organization's IT security team, 2) The Anti-Phishing Working Group (APWG), 3) The Federal Trade Commission (FTC), 4) Your email provider's abuse department."],
+            'what is the difference between http and https': ["HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP. The main difference is that HTTPS encrypts data between your browser and the website, making it much harder for attackers to intercept sensitive information. Always look for HTTPS when entering personal information."],
+            'default': ["I'm not sure about that specific question. I can help you with phishing detection, URL analysis, and general cybersecurity topics. Could you please rephrase your question?", "I'm focused on phishing detection and URL analysis. Could you ask me something related to those topics?"]
+        };
+        function getResponse(userInput) {
+            userInput = userInput.toLowerCase().trim();
+            if (responses.hasOwnProperty(userInput)) {
+                const response = responses[userInput];
+                return response[Math.floor(Math.random() * response.length)];
+            } else {
+                const response = responses['default'];
+                return response[Math.floor(Math.random() * response.length)];
+            }
+        }
+        function sendMessage() {
+            const inputText = userInput.value.trim();
+            if (inputText.length > 0) {
+                const botResponse = getResponse(inputText);
+                chatbox.innerHTML += `<p class="user-message">You: ${inputText}</p>`;
+                chatbox.innerHTML += `<p class="bot-message">Assistant: ${botResponse}</p>`;
+                userInput.value = '';
+                chatbox.scrollTop = chatbox.scrollHeight;
+            }
+        }
+        function handleUserInput(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+        userInput.addEventListener('keydown', handleUserInput);
+        const questions = [
+            {
+                type: 'url',
+                question: 'Is this a phishing link?',
+                content: 'https://www.bank-securelogin.com/update',
+                options: [
+                    { text: 'Yes, it\'s phishing', correct: true, explanation: 'The domain "bank-securelogin.com" is suspicious and not from an official bank domain.' },
+                    { text: 'No, it\'s legitimate', correct: false, explanation: 'Legitimate bank websites use their official domain names.' }
+                ]
+            },
+            {
+                type: 'email',
+                question: 'You receive this email. Is it phishing?',
+                content: 'Subject: Urgent: Your account will be suspended\n\nDear valued customer,\nYour account will be suspended in 24 hours unless you verify your details immediately. Click here to verify: http://verify-account-now.com',
+                options: [
+                    { text: 'Yes, it\'s phishing', correct: true, explanation: 'Legitimate companies don\'t ask for account verification via email links, and the urgent tone is a red flag.' },
+                    { text: 'No, it\'s legitimate', correct: false, explanation: 'This email uses scare tactics and asks for immediate action, which is typical of phishing.' }
+                ]
+            },
+            {
+                type: 'scenario',
+                question: 'Your boss emails asking for gift card codes. What do you do?',
+                content: 'From: boss@company.com\nSubject: Need gift cards urgently\n\nHi, I need you to buy 5 $100 gift cards and send me the codes. This is urgent.',
+                options: [
+                    { text: 'Reply and send the codes', correct: false, explanation: 'Never send gift card codes without verifying the request in person or via a known phone number.' },
+                    { text: 'Verify by calling them', correct: true, explanation: 'Always verify unusual requests through a separate communication channel.' },
+                    { text: 'Ignore the email', correct: false, explanation: 'While ignoring is safer than complying, it\'s better to verify and report potential phishing.' }
+                ]
+            },
+            {
+                type: 'url',
+                question: 'Is this a legitimate PayPal link?',
+                content: 'https://paypa1.com/login',
+                options: [
+                    { text: 'Yes, it\'s legitimate', correct: false, explanation: 'The domain "paypa1.com" uses a number 1 instead of the letter l, which is a common phishing tactic.' },
+                    { text: 'No, it\'s phishing', correct: true, explanation: 'The correct PayPal domain is paypal.com. This is a common phishing technique using similar-looking domains.' }
+                ]
+            },
+            {
+                type: 'email',
+                question: 'Is this a legitimate prize notification?',
+                content: 'Subject: Congratulations! You\'ve won $1,000,000!\n\nYou\'ve been selected as the winner of our international lottery. To claim your prize, send us your bank details and pay a small processing fee.',
+                options: [
+                    { text: 'Yes, it\'s legitimate', correct: false, explanation: 'Legitimate lotteries don\'t ask for bank details or processing fees via email.' },
+                    { text: 'No, it\'s phishing', correct: true, explanation: 'This is a classic advance-fee fraud. Legitimate prizes don\'t require you to pay fees to claim them.' }
+                ]
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let didYouKnowFacts = [
+            "Phishing attacks account for more than 80% of reported security incidents.",
+            "The first phishing attack was recorded in 1995, targeting AOL users.",
+            "96% of phishing attacks arrive by email.",
+            "The average cost of a phishing attack for a mid-sized company is $1.6 million.",
+            "Phishing attacks are becoming more sophisticated, with AI-generated content making them harder to spot."
+        ];
+
+        function displayQuestion(index) {
+            const question = questions[index];
+            const quizContent = document.getElementById('quizContent');
+            
+            const questionHTML = `
+                <div class="question-card active" style="display: block; margin-bottom: 2rem; padding: 1.5rem; border: 1px solid #dee2e6; border-radius: 8px;">
+                    <h3>${question.question}</h3>
+                    <div class="content mb-3">
+                        <pre class="bg-light p-3 rounded">${question.content}</pre>
+                    </div>
+                    <div class="options">
+                        ${question.options.map((option, i) => `
+                            <button class="option-btn" onclick="selectOption(${i}, ${index})" style="width: 100%; margin: 0.5rem 0; padding: 1rem; text-align: left; border: 2px solid #dee2e6; border-radius: 8px; background: white; transition: all 0.3s;">
+                                ${option.text}
+                            </button>
+                        `).join('')}
+                    </div>
+                    <div class="feedback" style="display: none; margin-top: 1rem; padding: 1rem; border-radius: 8px;"></div>
+                </div>
+            `;
+            
+            quizContent.innerHTML = questionHTML;
+            updateProgress();
+        }
+
+        function selectOption(optionIndex, questionIndex) {
+            const question = questions[questionIndex];
+            const option = question.options[optionIndex];
+            const feedback = document.querySelector('.feedback');
+            const optionButtons = document.querySelectorAll('.option-btn');
+            
+            optionButtons.forEach(btn => btn.disabled = true);
+            optionButtons[optionIndex].classList.add('selected');
+            optionButtons[optionIndex].style.borderColor = '#0d6efd';
+            optionButtons[optionIndex].style.background = '#e7f1ff';
+            
+            feedback.style.display = 'block';
+            feedback.classList.add(option.correct ? 'correct' : 'incorrect');
+            feedback.style.background = option.correct ? '#d4edda' : '#f8d7da';
+            feedback.style.border = option.correct ? '1px solid #c3e6cb' : '1px solid #f5c6cb';
+            feedback.style.color = option.correct ? '#155724' : '#721c24';
+            feedback.innerHTML = `
+                <strong>${option.correct ? 'Correct!' : 'Incorrect!'}</strong>
+                <p>${option.explanation}</p>
+            `;
+            
+            if (option.correct) score++;
+            
+            setTimeout(() => {
+                if (questionIndex < questions.length - 1) {
+                    currentQuestionIndex++;
+                    displayQuestion(currentQuestionIndex);
+                } else {
+                    showFinalScore();
+                }
+            }, 2000);
+        }
+
+        function updateProgress() {
+            const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
+            document.querySelector('.progress-bar').style.width = `${progress}%`;
+            document.getElementById('currentQuestion').textContent = currentQuestionIndex + 1;
+            document.getElementById('totalQuestions').textContent = questions.length;
+        }
+
+        function showFinalScore() {
+            document.getElementById('quizContent').style.display = 'none';
+            document.querySelector('.score-display').style.display = 'block';
+            document.getElementById('finalScore').textContent = score;
+        }
+
+        function restartQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            document.getElementById('quizContent').style.display = 'block';
+            document.querySelector('.score-display').style.display = 'none';
+            displayQuestion(0);
+        }
+
+        function shareScore() {
+            const text = `I scored ${score}/${questions.length} on the Phishing Awareness Quiz! Can you beat my score? Try it at ${window.location.href}`;
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Phishing Awareness Quiz Score',
+                    text: text
+                });
+            } else {
+                navigator.clipboard.writeText(text);
+                alert('Score copied to clipboard!');
+            }
+        }
+
+        function updateDidYouKnow() {
+            const fact = didYouKnowFacts[Math.floor(Math.random() * didYouKnowFacts.length)];
+            document.getElementById('didYouKnowText').textContent = fact;
+        }
+
+        // Initialize quiz when awareness section is shown
+        document.querySelector('a[data-section="awareness-section"]').addEventListener('click', function() {
+            setTimeout(() => {
+                if (document.getElementById('awareness-section').classList.contains('active')) {
+                    displayQuestion(0);
+                    updateDidYouKnow();
+                }
+            }, 100);
+        });
+
+        // Update fact every 10 seconds when awareness section is active
+        setInterval(() => {
+            if (document.getElementById('awareness-section').classList.contains('active')) {
+                updateDidYouKnow();
+            }
+        }, 10000);
+
+        document.getElementById('urlForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const urlInput = document.getElementById('urlInput');
+            const loadingSpinner = document.getElementById('loadingSpinner');
+            const resultCard = document.getElementById('resultCard');
+            const resultContent = document.getElementById('resultContent');
+            const errorAlert = document.getElementById('errorAlert');
+
+            // Hide previous results and errors
+            resultCard.classList.add('d-none');
+            errorAlert.classList.add('d-none');
+            loadingSpinner.classList.remove('d-none');
+
+            fetch('/analyze', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ url: urlInput.value })
+            })
+            .then(response => response.json())
+            .then(data => {
+                loadingSpinner.classList.add('d-none');
+                resultCard.classList.remove('d-none');
+
+                if (data.error) {
+                    errorAlert.textContent = data.error;
+                    errorAlert.classList.remove('d-none');
+                    return;
+                }
+
+                // Create status badge based on URL status
+                let statusBadge = '';
+                let statusColor = '';
+                let statusIcon = '';
+                let statusMessage = '';
+                
+                if (!data.is_resolvable) {
+                    statusBadge = 'Phishing Detected';
+                    statusColor = 'danger';
+                    statusIcon = '🚫';
+                    statusMessage = 'This domain does not exist on the internet. It is likely a phishing attempt.';
+                } else if (!data.is_accessible) {
+                    statusBadge = 'Phishing Detected';
+                    statusColor = 'danger';
+                    statusIcon = '🚫';
+                    statusMessage = 'This URL is not accessible. It may be a phishing attempt or the site is down.';
+                } else if (data.is_https && data.is_accessible) {
+                    statusBadge = 'Safe URL';
+                    statusColor = 'success';
+                    statusIcon = '✅';
+                    statusMessage = 'This is a secure and accessible website. It appears to be legitimate.';
+                } else {
+                    statusBadge = data.is_phishing ? 'Phishing Detected' : 'Unsafe URL';
+                    statusColor = data.is_phishing ? 'danger' : 'warning';
+                    statusIcon = data.is_phishing ? '🚫' : '⚠️';
+                    statusMessage = data.is_phishing ? 
+                        'This URL appears to be a phishing attempt. Do not proceed!' :
+                        'This URL is accessible but not using HTTPS. Proceed with caution.';
+                }
+
+                // Create HTTPS badge
+                const httpsBadge = data.is_https ? 
+                    '<span class="badge bg-success ms-2">HTTPS</span>' : 
+                    '<span class="badge bg-warning ms-2">HTTP</span>';
+
+                // Create accessibility badge
+                const accessibilityBadge = data.is_accessible ?
+                    '<span class="badge bg-success ms-2">Accessible</span>' :
+                    '<span class="badge bg-danger ms-2">Not Accessible</span>';
+
+                resultContent.innerHTML = `
+                    <div class="d-flex align-items-center mb-3">
+                        <h4 class="mb-0">${statusIcon} <span class="badge bg-${statusColor}">${statusBadge}</span>${httpsBadge}${accessibilityBadge}</h4>
+                    </div>
+                    <p class="mb-2"><strong>URL:</strong> ${data.original_url}</p>
+                    <p class="mb-2"><strong>Domain Status:</strong> ${data.is_resolvable ? 'Valid Domain' : 'Invalid Domain'}</p>
+                    <p class="mb-2"><strong>Confidence Score:</strong> ${(data.confidence * 100).toFixed(1)}%</p>
+                    <p class="mb-0"><strong>Analysis Time:</strong> ${new Date(data.timestamp).toLocaleString()}</p>
+                    <div class="alert alert-${statusColor} mt-3 mb-0">
+                        <strong>${statusIcon} ${statusBadge}:</strong> ${statusMessage}
+                    </div>
+                `;
+            })
+            .catch(error => {
+                loadingSpinner.classList.add('d-none');
+                errorAlert.textContent = 'An error occurred while analyzing the URL. Please try again.';
+                errorAlert.classList.remove('d-none');
+                console.error('Error:', error);
+            });
+        });
+    </script>
+</body>
+</html>

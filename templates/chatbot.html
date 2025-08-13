@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Detection Assistant</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .chat-container {
+            width: 500px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        #chatbox {
+            height: 400px;
+            overflow-y: auto;
+            padding: 20px;
+            border-bottom: 2px solid #ddd;
+        }
+        #chatbox p {
+            margin: 10px 0;
+            font-size: 16px;
+            line-height: 1.4;
+        }
+        .user-message {
+            color: #2c3e50;
+            font-weight: 500;
+        }
+        .bot-message {
+            color: #2980b9;
+        }
+        input[type="text"] {
+            width: calc(100% - 70px);
+            padding: 12px;
+            border: none;
+            border-radius: 0;
+            border-bottom-left-radius: 12px;
+            font-size: 14px;
+            outline: none;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        button {
+            width: 70px;
+            padding: 12px 0;
+            border: none;
+            border-radius: 0;
+            border-bottom-right-radius: 12px;
+            background-color: #2c3e50;
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            outline: none;
+        }
+        button:hover {
+            background-color: #34495e;
+        }
+        input[type="text"]:focus,
+        button:focus {
+            border-color: #3498db;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: #ccc;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chatbox">
+            <p class="bot-message">Welcome to the Phishing Detection Assistant! I can help you understand phishing threats and analyze URLs. How can I assist you today?</p>
+        </div>
+        <div style="display: flex;">
+            <input type="text" id="userInput" placeholder="Ask about phishing detection...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        const chatbox = document.getElementById('chatbox');
+        const userInput = document.getElementById('userInput');
+
+        const responses = {
+            'hi': ['Hello! I\'m your Phishing Detection Assistant. How can I help you today?', 'Hi there! I can help you analyze URLs and understand phishing threats. What would you like to know?'],
+            'hello': ['Hello! I\'m your Phishing Detection Assistant. How can I help you today?', 'Hi there! I can help you analyze URLs and understand phishing threats. What would you like to know?'],
+            'what is phishing': ['Phishing is a cyber attack where attackers impersonate legitimate entities to trick users into revealing sensitive information like passwords or credit card details. They often use fake websites that look similar to legitimate ones.'],
+            'how does your phishing detection work': ['Our system analyzes URLs using machine learning to detect potential phishing attempts. It examines various features like domain age, SSL certificates, URL structure, and more to determine if a website is legitimate or suspicious.'],
+            'what makes a url suspicious': ['Several factors can make a URL suspicious: misspelled domain names (like "googgle.com"), unusual domain extensions, excessive use of special characters, or domains that are very new. Our system checks these and many other indicators.'],
+            'how accurate is your detection': ['Our phishing detection system uses advanced machine learning and has a high accuracy rate. However, we apply a 75% confidence threshold to reduce false positives and ensure reliable results.'],
+            'can you check a url for me': ['Yes! You can use our URL analysis tool on the main page. Just enter the URL you want to check, and our system will analyze it for potential phishing threats.'],
+            'what should i do if i find a phishing site': ['If you encounter a phishing site: 1) Do not enter any personal information, 2) Report it to relevant authorities, 3) If you accidentally entered sensitive information, change your passwords immediately and monitor your accounts.'],
+            'how can i protect myself from phishing': ['To protect yourself from phishing: 1) Always verify URLs before clicking, 2) Use our URL checker tool, 3) Enable two-factor authentication, 4) Keep your software updated, 5) Be cautious of unsolicited emails or messages asking for personal information.'],
+            'what are common phishing tactics': ['Common phishing tactics include: 1) Fake login pages, 2) Urgent requests for action, 3) Offers that seem too good to be true, 4) Emails pretending to be from trusted organizations, 5) Messages creating a sense of urgency or fear.'],
+            'how do i report a phishing attempt': ['You can report phishing attempts to: 1) Your organization\'s IT security team, 2) The Anti-Phishing Working Group (APWG), 3) The Federal Trade Commission (FTC), 4) Your email provider\'s abuse department.'],
+            'what is the difference between http and https': ['HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP. The main difference is that HTTPS encrypts data between your browser and the website, making it much harder for attackers to intercept sensitive information. Always look for HTTPS when entering personal information.'],
+            'default': ['I\'m not sure about that specific question. I can help you with phishing detection, URL analysis, and general cybersecurity topics. Could you please rephrase your question?', 'I\'m focused on phishing detection and URL analysis. Could you ask me something related to those topics?']
+        };
+
+        function getResponse(userInput) {
+            userInput = userInput.toLowerCase().trim();
+            if (responses.hasOwnProperty(userInput)) {
+                const response = responses[userInput];
+                return response[Math.floor(Math.random() * response.length)];
+            } else {
+                const response = responses['default'];
+                return response[Math.floor(Math.random() * response.length)];
+            }
+        }
+
+        function sendMessage() {
+            const userInput = document.getElementById('userInput');
+            const inputText = userInput.value.trim();
+            
+            if (inputText.length > 0) {
+                const botResponse = getResponse(inputText);
+                chatbox.innerHTML += `<p class="user-message">You: ${inputText}</p>`;
+                chatbox.innerHTML += `<p class="bot-message">Assistant: ${botResponse}</p>`;
+                userInput.value = '';
+                chatbox.scrollTop = chatbox.scrollHeight;
+            }
+        }
+
+        function handleUserInput(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        userInput.addEventListener('keydown', handleUserInput);
+    </script>
+</body>
+</html> 
