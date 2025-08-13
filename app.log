@@ -1,0 +1,1388 @@
+2025-02-15 12:07:35,968 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.208:5000
+2025-02-15 12:07:35,969 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-15 12:07:35,972 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:07:39,072 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:07:39,082 - werkzeug - INFO -  * Debugger PIN: 141-253-352
+2025-02-15 12:07:53,630 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:07:53] "GET / HTTP/1.1" 200 -
+2025-02-15 12:07:53,850 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:07:53] "GET /static/style.css HTTP/1.1" 200 -
+2025-02-15 12:07:53,881 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:07:53] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-15 12:08:03,743 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:08:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-15 12:08:27,793 - feature_extractor - ERROR - Error getting domain features: No match for "COM-REDIRECT@VALIMAIL.COM".
+
+>>> Last update of whois database: 2025-02-15T06:38:08Z <<<
+
+
+
+NOTICE: The expiration date displayed in this record is the date the
+
+registrar's sponsorship of the domain name registration in the registry is
+
+currently set to expire. This date does not necessarily reflect the expiration
+
+date of the domain name registrant's agreement with the sponsoring
+
+registrar.  Users may consult the sponsoring registrar's Whois database to
+
+view the registrar's reported date of expiration for this registration.
+
+
+
+TERMS OF USE: You are not authorized to access or query our Whois
+
+database through the use of electronic processes that are high-volume and
+
+automated except as reasonably necessary to register domain names or
+
+modify existing registrations; the Data in VeriSign Global Registry
+
+Services' ("VeriSign") Whois database is provided by VeriSign for
+
+information purposes only, and to assist persons in obtaining information
+
+about or related to a domain name registration record. VeriSign does not
+
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+
+by the following terms of use: You agree that you may use this Data only
+
+for lawful purposes and that under no circumstances will you use this Data
+
+to: (1) allow, enable, or otherwise support the transmission of mass
+
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+
+or facsimile; or (2) enable high volume, automated, electronic processes
+
+that apply to VeriSign (or its computer systems). The compilation,
+
+repackaging, dissemination or other use of this Data is expressly
+
+prohibited without the prior written consent of VeriSign. You agree not to
+
+use electronic processes that are automated and high-volume to access or
+
+query the Whois database except as reasonably necessary to register
+
+domain names or modify existing registrations. VeriSign reserves the right
+
+to restrict your access to the Whois database in its sole discretion to ensure
+
+operational stability.  VeriSign may restrict or terminate your access to the
+
+Whois database for failure to abide by these terms of use. VeriSign
+
+reserves the right to modify these terms at any time.
+
+
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+
+Registrars.
+
+
+2025-02-15 12:08:36,566 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:08:36] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:09:56,078 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:09:56] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-02-15 12:10:10,351 - feature_extractor - ERROR - Error getting HTML features: HTTPConnectionPool(host='www.amazon-update.com', port=80): Max retries exceeded with url: /login.php (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000026F231E9790>: Failed to resolve 'www.amazon-update.com' ([Errno 11001] getaddrinfo failed)"))
+2025-02-15 12:10:10,365 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:10:10] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:13:40,031 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\train_model.py', reloading
+2025-02-15 12:13:40,423 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:13:44,217 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:13:44,237 - werkzeug - INFO -  * Debugger PIN: 141-253-352
+2025-02-15 12:14:53,911 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.208:5000
+2025-02-15 12:14:53,916 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-15 12:14:53,918 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:14:57,196 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:14:57,208 - werkzeug - INFO -  * Debugger PIN: 438-716-506
+2025-02-15 12:15:20,169 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:15:20] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:15:25,140 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:15:25] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:15:29,851 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:15:29] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:15:33,064 - feature_extractor - ERROR - Error getting HTML features: HTTPConnectionPool(host='googgle.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022CA1CD0C10>: Failed to resolve 'googgle.com' ([Errno 11001] getaddrinfo failed)"))
+2025-02-15 12:15:33,084 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:15:33] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:15:36,422 - feature_extractor - ERROR - Error getting HTML features: HTTPConnectionPool(host='paypal.secure.com.suspicious.domain.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022CA2FE0610>: Failed to resolve 'paypal.secure.com.suspicious.domain.com' ([Errno 11001] getaddrinfo failed)"))
+2025-02-15 12:15:36,442 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:15:36] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:15:41,824 - feature_extractor - ERROR - Error getting HTML features: HTTPConnectionPool(host='182.168.1.1', port=80): Max retries exceeded with url: /login.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022CA2FE2210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-02-15 12:15:41,841 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:15:41] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:15:43,877 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:15:43] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-02-15 12:15:48,277 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='very-long-subdomain.many.levels.deep.example.com', port=443): Max retries exceeded with url: /path?param=value (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022CA2FEFD10>: Failed to resolve 'very-long-subdomain.many.levels.deep.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-02-15 12:15:48,303 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:15:48] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:16:12,547 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\test_urls.py', reloading
+2025-02-15 12:16:12,590 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\test_urls.py', reloading
+2025-02-15 12:16:12,987 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:16:13,179 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:16:17,039 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:16:17,052 - werkzeug - INFO -  * Debugger PIN: 438-716-506
+2025-02-15 12:16:17,104 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:16:17,115 - werkzeug - INFO -  * Debugger PIN: 141-253-352
+2025-02-15 12:16:36,305 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:16:36] "GET / HTTP/1.1" 200 -
+2025-02-15 12:16:36,468 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:16:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-15 12:16:36,560 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:16:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-15 12:16:50,704 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:16:50] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:16:55,308 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:16:55] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:16:59,929 - feature_extractor - ERROR - Error getting HTML features: HTTPConnectionPool(host='googgle.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000211FB51F0D0>: Failed to resolve 'googgle.com' ([Errno 11001] getaddrinfo failed)"))
+2025-02-15 12:17:00,050 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:17:00] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:17:09,276 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:17:09] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:17:22,959 - feature_extractor - ERROR - Error getting HTML features: HTTPConnectionPool(host='192.168.1.1', port=80): Max retries exceeded with url: /login.php (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000211FB51F690>, 'Connection to 192.168.1.1 timed out. (connect timeout=5)'))
+2025-02-15 12:17:23,097 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:17:23] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:17:27,698 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='subdomain.example.com', port=443): Max retries exceeded with url: /path/to/page?param=value (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000211FB5D9290>: Failed to resolve 'subdomain.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-02-15 12:17:27,798 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:17:27] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:17:34,073 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='login.secure.banking.example.com', port=443): Max retries exceeded with url: /account (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000211FB51D090>: Failed to resolve 'login.secure.banking.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-02-15 12:17:34,183 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:17:34] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:17:37,230 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:17:37] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-02-15 12:18:34,215 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\app.py', reloading
+2025-02-15 12:18:34,260 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\app.py', reloading
+2025-02-15 12:18:34,542 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:18:34,678 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:18:38,215 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:18:38,230 - werkzeug - INFO -  * Debugger PIN: 438-716-506
+2025-02-15 12:18:38,367 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:18:38,379 - werkzeug - INFO -  * Debugger PIN: 141-253-352
+2025-02-15 12:18:49,747 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\train_model.py', reloading
+2025-02-15 12:18:49,779 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\train_model.py', reloading
+2025-02-15 12:18:50,115 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:18:50,155 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:18:53,576 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:18:53,589 - werkzeug - INFO -  * Debugger PIN: 141-253-352
+2025-02-15 12:18:53,662 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:18:53,675 - werkzeug - INFO -  * Debugger PIN: 438-716-506
+2025-02-15 12:19:19,725 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.208:5000
+2025-02-15 12:19:19,726 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-15 12:19:19,730 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:19:23,262 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:19:23,274 - werkzeug - INFO -  * Debugger PIN: 438-716-506
+2025-02-15 12:19:33,808 - werkzeug - INFO - 192.168.137.208 - - [15/Feb/2025 12:19:33] "GET / HTTP/1.1" 200 -
+2025-02-15 12:19:34,051 - werkzeug - INFO - 192.168.137.208 - - [15/Feb/2025 12:19:34] "GET /static/style.css HTTP/1.1" 200 -
+2025-02-15 12:19:34,076 - werkzeug - INFO - 192.168.137.208 - - [15/Feb/2025 12:19:34] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-15 12:19:34,746 - werkzeug - INFO - 192.168.137.208 - - [15/Feb/2025 12:19:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-15 12:19:40,861 - feature_extractor - ERROR - Error getting domain features: No match for "COM-REDIRECT@VALIMAIL.COM".
+
+>>> Last update of whois database: 2025-02-15T06:49:24Z <<<
+
+
+
+NOTICE: The expiration date displayed in this record is the date the
+
+registrar's sponsorship of the domain name registration in the registry is
+
+currently set to expire. This date does not necessarily reflect the expiration
+
+date of the domain name registrant's agreement with the sponsoring
+
+registrar.  Users may consult the sponsoring registrar's Whois database to
+
+view the registrar's reported date of expiration for this registration.
+
+
+
+TERMS OF USE: You are not authorized to access or query our Whois
+
+database through the use of electronic processes that are high-volume and
+
+automated except as reasonably necessary to register domain names or
+
+modify existing registrations; the Data in VeriSign Global Registry
+
+Services' ("VeriSign") Whois database is provided by VeriSign for
+
+information purposes only, and to assist persons in obtaining information
+
+about or related to a domain name registration record. VeriSign does not
+
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+
+by the following terms of use: You agree that you may use this Data only
+
+for lawful purposes and that under no circumstances will you use this Data
+
+to: (1) allow, enable, or otherwise support the transmission of mass
+
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+
+or facsimile; or (2) enable high volume, automated, electronic processes
+
+that apply to VeriSign (or its computer systems). The compilation,
+
+repackaging, dissemination or other use of this Data is expressly
+
+prohibited without the prior written consent of VeriSign. You agree not to
+
+use electronic processes that are automated and high-volume to access or
+
+query the Whois database except as reasonably necessary to register
+
+domain names or modify existing registrations. VeriSign reserves the right
+
+to restrict your access to the Whois database in its sole discretion to ensure
+
+operational stability.  VeriSign may restrict or terminate your access to the
+
+Whois database for failure to abide by these terms of use. VeriSign
+
+reserves the right to modify these terms at any time.
+
+
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+
+Registrars.
+
+
+2025-02-15 12:19:41,692 - werkzeug - INFO - 192.168.137.208 - - [15/Feb/2025 12:19:41] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:19:56,864 - werkzeug - INFO - 192.168.137.208 - - [15/Feb/2025 12:19:56] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:21:15,925 - werkzeug - INFO - 192.168.137.208 - - [15/Feb/2025 12:21:15] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:21:58,105 - werkzeug - INFO - 192.168.137.208 - - [15/Feb/2025 12:21:58] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:23:03,896 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\train_model.py', reloading
+2025-02-15 12:23:03,985 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\train_model.py', reloading
+2025-02-15 12:23:04,126 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\train_model.py', reloading
+2025-02-15 12:23:04,377 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:23:04,379 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:23:04,509 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:23:08,426 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:23:08,426 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:23:08,435 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:23:08,441 - werkzeug - INFO -  * Debugger PIN: 438-716-506
+2025-02-15 12:23:08,443 - werkzeug - INFO -  * Debugger PIN: 438-716-506
+2025-02-15 12:23:08,447 - werkzeug - INFO -  * Debugger PIN: 141-253-352
+2025-02-15 12:23:40,524 - werkzeug - INFO - 192.168.137.208 - - [15/Feb/2025 12:23:40] "GET / HTTP/1.1" 200 -
+2025-02-15 12:23:40,713 - werkzeug - INFO - 192.168.137.208 - - [15/Feb/2025 12:23:40] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:24:00,654 - werkzeug - INFO - 192.168.137.208 - - [15/Feb/2025 12:24:00] "POST /analyze HTTP/1.1" 200 -
+2025-02-15 12:26:03,633 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\app.py', reloading
+2025-02-15 12:26:03,801 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\app.py', reloading
+2025-02-15 12:26:03,858 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\app.py', reloading
+2025-02-15 12:26:04,046 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:26:04,234 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:26:04,262 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:26:08,615 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:26:08,615 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:26:08,626 - werkzeug - INFO -  * Debugger PIN: 438-716-506
+2025-02-15 12:26:08,626 - werkzeug - INFO -  * Debugger PIN: 438-716-506
+2025-02-15 12:26:08,629 - werkzeug - INFO -  * Debugger PIN: 141-253-352
+2025-02-15 12:26:26,154 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\app.py', reloading
+2025-02-15 12:26:26,375 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\app.py', reloading
+2025-02-15 12:26:26,415 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\app.py', reloading
+2025-02-15 12:26:26,702 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:26:26,905 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:26:26,980 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:26:31,050 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:26:31,065 - werkzeug - INFO -  * Debugger PIN: 438-716-506
+2025-02-15 12:26:31,104 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:26:31,121 - werkzeug - INFO -  * Debugger PIN: 141-253-352
+2025-02-15 12:26:31,137 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:26:31,150 - werkzeug - INFO -  * Debugger PIN: 438-716-506
+2025-02-15 12:26:33,339 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\train_model.py', reloading
+2025-02-15 12:26:33,399 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\train_model.py', reloading
+2025-02-15 12:26:33,450 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nikhi\\OneDrive\\Desktop\\Phishing-Detection-Advanced\\train_model.py', reloading
+2025-02-15 12:26:33,728 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:26:33,780 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:26:33,845 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 12:26:38,448 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:26:38,460 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:26:38,461 - werkzeug - INFO -  * Debugger PIN: 141-253-352
+2025-02-15 12:26:38,476 - werkzeug - INFO -  * Debugger PIN: 438-716-506
+2025-02-15 12:26:38,515 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 12:26:38,533 - werkzeug - INFO -  * Debugger PIN: 438-716-506
+2025-02-20 11:30:47,235 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.95.29:5000
+2025-02-20 11:30:47,238 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 11:30:47,257 - werkzeug - INFO -  * Restarting with stat
+2025-02-20 11:30:50,737 - werkzeug - WARNING -  * Debugger is active!
+2025-02-20 11:30:50,751 - werkzeug - INFO -  * Debugger PIN: 141-253-352
+2025-02-20 11:30:55,449 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 11:30:55] "GET / HTTP/1.1" 200 -
+2025-02-20 11:30:55,708 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 11:30:55] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-20 11:30:55,717 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 11:30:55] "GET /static/style.css HTTP/1.1" 200 -
+2025-02-20 11:31:24,176 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 11:31:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-20 11:47:22,264 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.208:5000
+2025-02-20 11:47:22,266 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 11:47:22,271 - werkzeug - INFO -  * Restarting with stat
+2025-02-20 11:47:25,476 - werkzeug - WARNING -  * Debugger is active!
+2025-02-20 11:47:25,487 - werkzeug - INFO -  * Debugger PIN: 141-253-352
+2025-02-20 11:48:19,719 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 11:48:19] "GET / HTTP/1.1" 200 -
+2025-02-20 11:48:19,954 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 11:48:19] "GET /static/style.css HTTP/1.1" 200 -
+2025-02-20 11:48:19,954 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 11:48:19] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-20 11:48:20,835 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 11:48:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-20 11:48:26,117 - feature_extractor - ERROR - Error getting domain features: No match for "COM-REDIRECT@VALIMAIL.COM".
+
+>>> Last update of whois database: 2025-02-20T06:18:16Z <<<
+
+
+
+NOTICE: The expiration date displayed in this record is the date the
+
+registrar's sponsorship of the domain name registration in the registry is
+
+currently set to expire. This date does not necessarily reflect the expiration
+
+date of the domain name registrant's agreement with the sponsoring
+
+registrar.  Users may consult the sponsoring registrar's Whois database to
+
+view the registrar's reported date of expiration for this registration.
+
+
+
+TERMS OF USE: You are not authorized to access or query our Whois
+
+database through the use of electronic processes that are high-volume and
+
+automated except as reasonably necessary to register domain names or
+
+modify existing registrations; the Data in VeriSign Global Registry
+
+Services' ("VeriSign") Whois database is provided by VeriSign for
+
+information purposes only, and to assist persons in obtaining information
+
+about or related to a domain name registration record. VeriSign does not
+
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+
+by the following terms of use: You agree that you may use this Data only
+
+for lawful purposes and that under no circumstances will you use this Data
+
+to: (1) allow, enable, or otherwise support the transmission of mass
+
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+
+or facsimile; or (2) enable high volume, automated, electronic processes
+
+that apply to VeriSign (or its computer systems). The compilation,
+
+repackaging, dissemination or other use of this Data is expressly
+
+prohibited without the prior written consent of VeriSign. You agree not to
+
+use electronic processes that are automated and high-volume to access or
+
+query the Whois database except as reasonably necessary to register
+
+domain names or modify existing registrations. VeriSign reserves the right
+
+to restrict your access to the Whois database in its sole discretion to ensure
+
+operational stability.  VeriSign may restrict or terminate your access to the
+
+Whois database for failure to abide by these terms of use. VeriSign
+
+reserves the right to modify these terms at any time.
+
+
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+
+Registrars.
+
+
+2025-02-20 11:48:28,546 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 11:48:28] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 11:54:15,801 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='www.amazon.in', port=443): Read timed out. (read timeout=5)
+2025-02-20 11:54:15,987 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 11:54:15] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 11:54:32,923 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 11:54:32] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 11:54:45,367 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 11:54:45] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 12:08:49,439 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:08:49] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-02-20 12:09:09,729 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:09:09] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-02-20 12:09:48,379 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:09:48] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 12:10:02,116 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='onlinenotepad.org', port=443): Read timed out.
+2025-02-20 12:10:02,312 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:10:02] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 12:10:02,940 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='chatgpt.com', port=443): Read timed out.
+2025-02-20 12:10:02,946 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-02-20 12:10:02,947 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:10:02] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-02-20 12:10:03,598 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='onlinenotepad.org', port=443): Read timed out.
+2025-02-20 12:10:03,605 - __main__ - ERROR - Error making prediction: X has 38 features, but RandomForestClassifier is expecting 30 features as input.
+2025-02-20 12:10:03,607 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:10:03] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-02-20 12:10:09,189 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='chatgpt.com', port=443): Read timed out. (read timeout=5)
+2025-02-20 12:10:09,192 - __main__ - ERROR - Error making prediction: X has 44 features, but RandomForestClassifier is expecting 30 features as input.
+2025-02-20 12:10:09,194 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:10:09] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-02-20 12:10:29,524 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='onlinenotepad.org', port=443): Read timed out. (read timeout=5)
+2025-02-20 12:10:29,697 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:10:29] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 12:10:32,293 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='onlinenotepad.org', port=443): Read timed out. (read timeout=5)
+2025-02-20 12:10:32,297 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-02-20 12:10:32,298 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:10:32] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-02-20 12:10:50,365 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:10:50] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 12:11:20,490 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:11:20] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 12:11:27,707 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='onlinenotepad.org', port=443): Read timed out. (read timeout=5)
+2025-02-20 12:11:27,888 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:11:27] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 12:11:39,854 - __main__ - ERROR - Error making prediction: X has 36 features, but RandomForestClassifier is expecting 30 features as input.
+2025-02-20 12:11:39,854 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:11:39] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-02-20 12:11:58,966 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:11:58] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 12:12:42,516 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='onlinenotepad.org', port=443): Read timed out. (read timeout=5)
+2025-02-20 12:12:42,710 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:12:42] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 12:23:40,254 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='chatgpt.com', port=443): Max retries exceeded with url: /c/67b6b5bd-9708-8003-a38c-c828a455a819 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D330E71B90>: Failed to resolve 'chatgpt.com' ([Errno 11001] getaddrinfo failed)"))
+2025-02-20 12:23:40,433 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:23:40] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 12:24:20,828 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:24:20] "POST /analyze HTTP/1.1" 200 -
+2025-02-20 12:28:09,444 - feature_extractor - ERROR - Error getting domain features: No match for "COM-REDIRECT@VALIMAIL.COM".
+
+>>> Last update of whois database: 2025-02-20T06:57:59Z <<<
+
+
+
+NOTICE: The expiration date displayed in this record is the date the
+
+registrar's sponsorship of the domain name registration in the registry is
+
+currently set to expire. This date does not necessarily reflect the expiration
+
+date of the domain name registrant's agreement with the sponsoring
+
+registrar.  Users may consult the sponsoring registrar's Whois database to
+
+view the registrar's reported date of expiration for this registration.
+
+
+
+TERMS OF USE: You are not authorized to access or query our Whois
+
+database through the use of electronic processes that are high-volume and
+
+automated except as reasonably necessary to register domain names or
+
+modify existing registrations; the Data in VeriSign Global Registry
+
+Services' ("VeriSign") Whois database is provided by VeriSign for
+
+information purposes only, and to assist persons in obtaining information
+
+about or related to a domain name registration record. VeriSign does not
+
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+
+by the following terms of use: You agree that you may use this Data only
+
+for lawful purposes and that under no circumstances will you use this Data
+
+to: (1) allow, enable, or otherwise support the transmission of mass
+
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+
+or facsimile; or (2) enable high volume, automated, electronic processes
+
+that apply to VeriSign (or its computer systems). The compilation,
+
+repackaging, dissemination or other use of this Data is expressly
+
+prohibited without the prior written consent of VeriSign. You agree not to
+
+use electronic processes that are automated and high-volume to access or
+
+query the Whois database except as reasonably necessary to register
+
+domain names or modify existing registrations. VeriSign reserves the right
+
+to restrict your access to the Whois database in its sole discretion to ensure
+
+operational stability.  VeriSign may restrict or terminate your access to the
+
+Whois database for failure to abide by these terms of use. VeriSign
+
+reserves the right to modify these terms at any time.
+
+
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+
+Registrars.
+
+
+2025-02-20 12:28:10,431 - werkzeug - INFO - 127.0.0.1 - - [20/Feb/2025 12:28:10] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 22:12:35,980 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3333
+ * Running on http://192.168.0.144:3333
+2025-05-14 22:12:35,980 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-14 22:12:35,981 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 22:12:37,182 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 22:12:37,197 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-14 22:12:51,336 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:12:51] "GET / HTTP/1.1" 200 -
+2025-05-14 22:12:51,358 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:12:51] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-14 22:12:51,359 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:12:51] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-14 22:12:52,042 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:12:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-14 22:12:52,129 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:12:52] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-05-14 22:12:52,247 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:12:52] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-05-14 22:15:44,405 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:15:44] "GET / HTTP/1.1" 200 -
+2025-05-14 22:15:44,501 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:15:44] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-14 22:15:44,501 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:15:44] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-14 22:15:45,143 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:15:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-14 22:15:59,372 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-14 22:15:59,536 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 22:16:01,243 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 22:16:01,254 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-14 22:16:04,409 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-14 22:16:04,511 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 22:16:05,784 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 22:16:05,793 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-14 22:16:17,522 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:16:17] "GET / HTTP/1.1" 200 -
+2025-05-14 22:16:17,600 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:16:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-14 22:16:17,601 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:16:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-14 22:16:22,321 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:16:22] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-14 22:16:31,658 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:16:31] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 22:17:23,853 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-14 22:17:24,008 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 22:17:25,537 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 22:17:25,548 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-14 22:17:26,622 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-14 22:17:26,719 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 22:17:27,956 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 22:17:27,964 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-14 22:17:30,138 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:17:30] "GET / HTTP/1.1" 200 -
+2025-05-14 22:17:30,168 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:17:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-14 22:17:30,169 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:17:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-14 22:17:34,553 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 22:17:34] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-15 14:59:13,129 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 14:59:13,467 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 14:59:19,700 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 14:59:19,717 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-15 14:59:33,887 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 14:59:33] "POST /analyze HTTP/1.1" 200 -
+2025-05-15 15:01:25,272 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 15:01:25,402 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:01:26,852 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 15:01:26,866 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-15 15:01:34,198 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 15:01:34,289 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:01:35,615 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 15:01:35,624 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-15 15:01:43,122 - __main__ - ERROR - Error in analyze endpoint: Object of type Response is not JSON serializable
+2025-05-15 15:01:43,122 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:01:43] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-15 15:01:47,417 - __main__ - ERROR - Error in analyze endpoint: Object of type Response is not JSON serializable
+2025-05-15 15:01:47,417 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:01:47] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-15 15:01:49,407 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:01:49] "GET / HTTP/1.1" 200 -
+2025-05-15 15:01:49,472 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:01:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-15 15:01:49,472 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:01:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-15 15:01:54,358 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:01:54] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-05-15 15:01:54,359 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:01:54] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-05-15 15:01:54,360 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:01:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-15 15:02:50,627 - __main__ - ERROR - Error in analyze endpoint: Object of type Response is not JSON serializable
+2025-05-15 15:02:50,628 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:02:50] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-15 15:02:59,291 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:02:59] "POST /analyze HTTP/1.1" 200 -
+2025-05-15 15:05:05,538 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:05:05] "GET / HTTP/1.1" 200 -
+2025-05-15 15:05:05,606 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:05:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-15 15:05:05,614 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:05:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-15 15:05:20,827 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:05:20] "GET / HTTP/1.1" 200 -
+2025-05-15 15:05:20,845 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:05:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-15 15:05:20,846 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:05:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-15 15:05:31,008 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:05:31] "POST /analyze HTTP/1.1" 200 -
+2025-05-15 15:09:10,752 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 15:09:10,934 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:09:12,569 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 15:09:12,579 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-15 15:09:24,068 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 15:09:24,188 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:09:25,487 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 15:09:25,496 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-15 15:09:44,265 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:09:44] "GET / HTTP/1.1" 200 -
+2025-05-15 15:09:44,293 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:09:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-15 15:09:44,293 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:09:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-15 15:09:50,633 - __main__ - ERROR - Error in analyze endpoint: Object of type Response is not JSON serializable
+2025-05-15 15:09:50,634 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:09:50] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-15 15:14:48,289 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:14:48] "POST /analyze HTTP/1.1" 200 -
+2025-05-15 15:15:52,211 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:15:52] "GET / HTTP/1.1" 200 -
+2025-05-15 15:15:52,230 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:15:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-15 15:15:52,231 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:15:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-15 15:16:07,167 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:16:07] "POST /analyze HTTP/1.1" 200 -
+2025-05-15 15:19:01,325 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 15:19:01,488 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:19:03,079 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 15:19:03,088 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-15 15:19:03,322 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:19:03] "GET / HTTP/1.1" 200 -
+2025-05-15 15:19:03,348 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:19:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-15 15:19:03,348 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:19:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-15 15:19:19,576 - __main__ - ERROR - Error in analyze endpoint: Object of type Response is not JSON serializable
+2025-05-15 15:19:19,576 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:19:19] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-15 15:20:46,036 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 15:20:46,164 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:20:47,618 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 15:20:47,628 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-15 15:20:53,897 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 15:20:54,005 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:20:55,180 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 15:20:55,188 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-15 15:20:57,728 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:20:57] "GET / HTTP/1.1" 200 -
+2025-05-15 15:20:57,761 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:20:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-15 15:20:57,761 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:20:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-15 15:21:26,036 - __main__ - ERROR - Error in analyze endpoint: Object of type Response is not JSON serializable
+2025-05-15 15:21:26,036 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:21:26] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-15 15:22:39,419 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:22:39] "GET / HTTP/1.1" 200 -
+2025-05-15 15:22:39,448 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:22:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-15 15:22:39,449 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:22:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-15 15:22:44,057 - __main__ - ERROR - Error in analyze endpoint: Object of type Response is not JSON serializable
+2025-05-15 15:22:44,057 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:22:44] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-15 15:22:51,648 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 15:22:51,806 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:22:53,216 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 15:22:53,225 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-15 15:22:56,624 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:22:56] "GET / HTTP/1.1" 200 -
+2025-05-15 15:22:56,653 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:22:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-15 15:22:56,653 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:22:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-15 15:23:02,461 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:23:02] "POST /analyze HTTP/1.1" 200 -
+2025-05-15 15:24:13,203 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 15:24:13,333 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:24:14,870 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 15:24:14,880 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-15 15:24:23,193 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 15:24:23,301 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:24:24,565 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 15:24:24,574 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-15 15:24:35,357 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:24:35] "GET / HTTP/1.1" 200 -
+2025-05-15 15:24:35,389 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:24:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-15 15:24:35,390 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:24:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-15 15:24:36,211 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:24:36] "GET / HTTP/1.1" 200 -
+2025-05-15 15:24:36,232 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:24:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-15 15:24:36,233 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:24:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-15 15:24:38,488 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:24:38] "POST /analyze HTTP/1.1" 200 -
+2025-05-15 15:24:42,681 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:24:42] "GET / HTTP/1.1" 200 -
+2025-05-15 15:24:42,701 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:24:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-15 15:24:42,702 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:24:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-15 15:24:46,079 - werkzeug - INFO - 127.0.0.1 - - [15/May/2025 15:24:46] "POST /analyze HTTP/1.1" 200 -
+2025-05-15 15:29:21,005 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 15:29:21,116 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:32:16,299 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3333
+ * Running on http://192.168.0.144:3333
+2025-05-15 15:32:16,300 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 15:32:16,301 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:32:17,500 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 15:32:17,514 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-15 15:32:23,641 - werkzeug - INFO - 192.168.0.144 - - [15/May/2025 15:32:23] "GET / HTTP/1.1" 200 -
+2025-05-15 15:32:23,663 - werkzeug - INFO - 192.168.0.144 - - [15/May/2025 15:32:23] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-15 15:32:23,663 - werkzeug - INFO - 192.168.0.144 - - [15/May/2025 15:32:23] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-15 15:32:24,389 - werkzeug - INFO - 192.168.0.144 - - [15/May/2025 15:32:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-15 15:32:27,585 - werkzeug - INFO - 192.168.0.144 - - [15/May/2025 15:32:27] "POST /analyze HTTP/1.1" 200 -
+2025-05-15 15:32:41,751 - werkzeug - INFO - 192.168.0.144 - - [15/May/2025 15:32:41] "POST /analyze HTTP/1.1" 200 -
+2025-05-15 15:32:44,354 - werkzeug - INFO - 192.168.0.144 - - [15/May/2025 15:32:44] "GET / HTTP/1.1" 200 -
+2025-05-15 15:32:44,376 - werkzeug - INFO - 192.168.0.144 - - [15/May/2025 15:32:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-15 15:32:44,377 - werkzeug - INFO - 192.168.0.144 - - [15/May/2025 15:32:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-15 15:32:58,264 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 15:32:58,445 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:33:00,107 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 15:33:00,119 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-15 15:33:17,768 - werkzeug - INFO -  * Detected change in '/Users/vishalreddy/Downloads/Phishing-Detection-Advanced/app.py', reloading
+2025-05-15 15:33:17,900 - werkzeug - INFO -  * Restarting with stat
+2025-05-15 15:33:19,419 - werkzeug - WARNING -  * Debugger is active!
+2025-05-15 15:33:19,428 - werkzeug - INFO -  * Debugger PIN: 101-877-335
+2025-05-16 12:34:15,803 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3333
+ * Running on http://192.168.1.4:3333
+2025-05-16 12:34:15,803 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-16 12:34:15,804 - werkzeug - INFO -  * Restarting with stat
+2025-05-16 12:34:16,596 - werkzeug - WARNING -  * Debugger is active!
+2025-05-16 12:34:16,601 - werkzeug - INFO -  * Debugger PIN: 748-862-605
+2025-05-16 12:34:28,962 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:34:28] "GET / HTTP/1.1" 200 -
+2025-05-16 12:34:28,978 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:34:28] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-16 12:34:28,978 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:34:28] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-16 12:34:29,987 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:34:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-16 12:34:30,053 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:34:30] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-05-16 12:34:30,170 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:34:30] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-05-16 12:34:49,109 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:34:49] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 12:35:23,526 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:35:23] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 12:35:38,992 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:35:38] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 12:36:02,982 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:36:02] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 12:36:07,307 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='www.face', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1083f07d0>: Failed to resolve 'www.face' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-05-16 12:36:07,335 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:36:07] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 12:36:08,299 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='www.face', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1083f1d10>: Failed to resolve 'www.face' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-05-16 12:36:08,326 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:36:08] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 12:36:12,669 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:36:12] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-05-16 12:38:52,559 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:38:52] "GET / HTTP/1.1" 200 -
+2025-05-16 12:38:52,575 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:38:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-16 12:38:52,576 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:38:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 12:40:40,419 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:40:40] "GET / HTTP/1.1" 200 -
+2025-05-16 12:40:40,437 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:40:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-16 12:40:40,437 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:40:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 12:52:02,159 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:52:02] "GET / HTTP/1.1" 200 -
+2025-05-16 12:52:02,187 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:52:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-16 12:52:02,187 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:52:02] "[33mGET /static/custom.js HTTP/1.1[0m" 404 -
+2025-05-16 12:52:02,188 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:52:02] "GET /static/custom.css HTTP/1.1" 200 -
+2025-05-16 12:52:02,188 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:52:02] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 12:54:28,478 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:54:28] "GET / HTTP/1.1" 200 -
+2025-05-16 12:54:28,496 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:54:28] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 12:58:38,766 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:58:38] "GET / HTTP/1.1" 200 -
+2025-05-16 12:58:38,780 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:58:38] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 12:59:31,970 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:59:31] "GET / HTTP/1.1" 200 -
+2025-05-16 12:59:31,989 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 12:59:31] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:03:29,683 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:03:29] "GET / HTTP/1.1" 200 -
+2025-05-16 13:03:29,705 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:03:29] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:08:27,338 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:08:27] "GET / HTTP/1.1" 200 -
+2025-05-16 13:08:27,357 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:08:27] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:14:42,732 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:14:42] "GET / HTTP/1.1" 200 -
+2025-05-16 13:14:42,750 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:14:42] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:16:15,630 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:16:15] "GET / HTTP/1.1" 200 -
+2025-05-16 13:16:15,645 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:16:15] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:16:26,154 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:16:26] "GET / HTTP/1.1" 200 -
+2025-05-16 13:16:26,174 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:16:26] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:17:39,584 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:17:39] "GET / HTTP/1.1" 200 -
+2025-05-16 13:17:39,606 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:17:39] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:18:02,909 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:18:02] "GET / HTTP/1.1" 200 -
+2025-05-16 13:18:02,928 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:18:02] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:21:27,136 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:21:27] "GET / HTTP/1.1" 200 -
+2025-05-16 13:21:27,158 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:21:27] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:21:27,158 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:21:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 13:21:35,070 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:21:35] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 13:23:10,322 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:23:10] "GET / HTTP/1.1" 200 -
+2025-05-16 13:23:10,343 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:23:10] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:23:10,344 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:23:10] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 13:23:21,365 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:23:21] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 13:24:17,716 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:24:17] "GET / HTTP/1.1" 200 -
+2025-05-16 13:24:17,735 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:24:17] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:24:17,736 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:24:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 13:25:09,267 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:25:09] "GET / HTTP/1.1" 200 -
+2025-05-16 13:25:09,288 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:25:09] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:25:09,288 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:25:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 13:25:31,174 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:25:31] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 13:25:44,110 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:25:44] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 13:27:07,317 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:27:07] "GET / HTTP/1.1" 200 -
+2025-05-16 13:27:07,336 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:27:07] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:27:07,337 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:27:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 13:28:24,853 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:28:24] "GET / HTTP/1.1" 200 -
+2025-05-16 13:28:24,876 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:28:24] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:28:24,877 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:28:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 13:28:25,756 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:28:25] "GET / HTTP/1.1" 200 -
+2025-05-16 13:28:25,774 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:28:25] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:28:25,774 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:28:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 13:29:06,670 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:29:06] "GET / HTTP/1.1" 200 -
+2025-05-16 13:29:06,695 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:29:06] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:29:06,696 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:29:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 13:29:47,049 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:29:47] "GET / HTTP/1.1" 200 -
+2025-05-16 13:29:47,067 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:29:47] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:29:47,068 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:29:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 13:33:29,196 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:33:29] "GET / HTTP/1.1" 200 -
+2025-05-16 13:33:29,216 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:33:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 13:33:29,217 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:33:29] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:36:05,616 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:36:05] "GET / HTTP/1.1" 200 -
+2025-05-16 13:36:05,635 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:36:05] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:36:05,635 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:36:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 13:37:56,862 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:37:56] "GET / HTTP/1.1" 200 -
+2025-05-16 13:37:56,887 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:37:56] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:37:56,888 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:37:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 13:40:29,547 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:40:29] "GET / HTTP/1.1" 200 -
+2025-05-16 13:40:29,571 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:40:29] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:40:29,571 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:40:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 13:41:06,676 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:41:06] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 13:41:13,054 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:41:13] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 13:51:32,936 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:51:32] "GET / HTTP/1.1" 200 -
+2025-05-16 13:51:32,956 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:51:32] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-16 13:51:32,957 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 13:51:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-16 17:50:12,086 - werkzeug - INFO -  * Detected change in '/Users/shobhasaithy/Downloads/Phishing-Detection-MP/app.py', reloading
+2025-05-16 17:50:12,222 - werkzeug - INFO -  * Restarting with stat
+2025-05-16 17:50:13,024 - werkzeug - WARNING -  * Debugger is active!
+2025-05-16 17:50:13,031 - werkzeug - INFO -  * Debugger PIN: 748-862-605
+2025-05-16 17:50:14,102 - werkzeug - INFO -  * Detected change in '/Users/shobhasaithy/Downloads/Phishing-Detection-MP/app.py', reloading
+2025-05-16 17:50:14,192 - werkzeug - INFO -  * Restarting with stat
+2025-05-16 17:50:14,752 - werkzeug - WARNING -  * Debugger is active!
+2025-05-16 17:50:14,756 - werkzeug - INFO -  * Debugger PIN: 748-862-605
+2025-05-16 17:50:19,957 - werkzeug - INFO -  * Detected change in '/Users/shobhasaithy/Downloads/Phishing-Detection-MP/app.py', reloading
+2025-05-16 17:50:20,039 - werkzeug - INFO -  * Restarting with stat
+2025-05-16 17:50:20,594 - werkzeug - WARNING -  * Debugger is active!
+2025-05-16 17:50:20,598 - werkzeug - INFO -  * Debugger PIN: 748-862-605
+2025-05-16 17:50:22,695 - werkzeug - INFO -  * Detected change in '/Users/shobhasaithy/Downloads/Phishing-Detection-MP/app.py', reloading
+2025-05-16 17:50:22,795 - werkzeug - INFO -  * Restarting with stat
+2025-05-16 17:50:23,362 - werkzeug - WARNING -  * Debugger is active!
+2025-05-16 17:50:23,366 - werkzeug - INFO -  * Debugger PIN: 748-862-605
+2025-05-16 17:50:29,619 - werkzeug - INFO -  * Detected change in '/Users/shobhasaithy/Downloads/Phishing-Detection-MP/app.py', reloading
+2025-05-16 17:50:29,709 - werkzeug - INFO -  * Restarting with stat
+2025-05-16 17:50:30,294 - werkzeug - WARNING -  * Debugger is active!
+2025-05-16 17:50:30,299 - werkzeug - INFO -  * Debugger PIN: 748-862-605
+2025-05-16 17:50:32,407 - werkzeug - INFO -  * Detected change in '/Users/shobhasaithy/Downloads/Phishing-Detection-MP/app.py', reloading
+2025-05-16 17:50:32,509 - werkzeug - INFO -  * Restarting with stat
+2025-05-16 17:50:33,104 - werkzeug - WARNING -  * Debugger is active!
+2025-05-16 17:50:33,109 - werkzeug - INFO -  * Debugger PIN: 748-862-605
+2025-05-17 12:14:57,528 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:14:57] "GET / HTTP/1.1" 200 -
+2025-05-17 12:14:57,550 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:14:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-17 12:14:57,550 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:14:57] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-17 12:17:29,015 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:17:29] "GET / HTTP/1.1" 200 -
+2025-05-17 12:17:29,037 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:17:29] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-17 12:17:29,037 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:17:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-17 12:22:38,021 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:22:38] "GET / HTTP/1.1" 200 -
+2025-05-17 12:22:38,039 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:22:38] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-17 12:22:38,039 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:22:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-17 12:24:12,693 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:24:12] "GET / HTTP/1.1" 200 -
+2025-05-17 12:24:12,711 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:24:12] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-17 12:24:12,711 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:24:12] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-20 18:00:30,041 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 18:00:30] "POST /analyze HTTP/1.1" 200 -
+2025-05-20 18:00:48,345 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 18:00:48] "POST /analyze HTTP/1.1" 200 -
+2025-05-20 18:01:08,176 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 18:01:08] "GET / HTTP/1.1" 200 -
+2025-05-20 18:01:08,197 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 18:01:08] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-20 18:01:08,197 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 18:01:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-20 18:01:09,273 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 18:01:09] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-05-20 18:01:09,383 - werkzeug - INFO - 127.0.0.1 - - [20/May/2025 18:01:09] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-05-21 18:17:44,254 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:17:44] "GET / HTTP/1.1" 200 -
+2025-05-21 18:17:44,261 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:17:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-21 18:17:44,265 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:17:44] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-21 18:17:44,453 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:17:44] "GET / HTTP/1.1" 200 -
+2025-05-21 18:17:44,456 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:17:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-21 18:17:44,461 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 18:17:44] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-22 13:15:49,779 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:15:49] "POST /analyze HTTP/1.1" 200 -
+2025-05-22 13:16:10,273 - werkzeug - INFO - 127.0.0.1 - - [22/May/2025 13:16:10] "POST /analyze HTTP/1.1" 200 -
+2025-05-24 12:39:42,313 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 12:39:42] "GET / HTTP/1.1" 200 -
+2025-05-24 12:39:42,342 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 12:39:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-24 12:39:42,342 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 12:39:42] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-24 12:39:43,843 - werkzeug - INFO - 127.0.0.1 - - [24/May/2025 12:39:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-26 16:11:27,229 - werkzeug - INFO -  * Detected change in '/Users/shobhasaithy/Downloads/Phishing-Detection-MP/app.py', reloading
+2025-05-26 16:11:27,380 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 16:11:28,262 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 16:11:28,269 - werkzeug - INFO -  * Debugger PIN: 748-862-605
+2025-05-26 16:11:31,400 - werkzeug - INFO -  * Detected change in '/Users/shobhasaithy/Downloads/Phishing-Detection-MP/app.py', reloading
+2025-05-26 16:11:31,499 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 16:11:32,056 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 16:11:32,060 - werkzeug - INFO -  * Debugger PIN: 748-862-605
+2025-05-26 17:19:40,499 - werkzeug - INFO -  * Detected change in '/Users/shobhasaithy/Downloads/Phishing-Detection-MP/app.py', reloading
+2025-05-26 17:19:40,601 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 17:19:41,398 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 17:19:41,406 - werkzeug - INFO -  * Debugger PIN: 748-862-605
+2025-05-26 17:23:11,729 - werkzeug - INFO -  * Detected change in '/Users/shobhasaithy/Downloads/Phishing-Detection-MP/app.py', reloading
+2025-05-26 17:23:11,845 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 17:23:12,674 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 17:23:12,680 - werkzeug - INFO -  * Debugger PIN: 748-862-605
+2025-05-26 17:24:58,709 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:24:58] "GET / HTTP/1.1" 200 -
+2025-05-26 17:24:58,722 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:24:58] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-26 17:24:58,723 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:24:58] "GET /static/custom.css HTTP/1.1" 200 -
+2025-05-26 17:24:59,474 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:24:59] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-05-26 17:24:59,566 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:24:59] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-05-26 17:25:08,020 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:25:08] "GET /chatbot HTTP/1.1" 200 -
+2025-05-26 17:28:37,005 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:28:37] "GET / HTTP/1.1" 200 -
+2025-05-26 17:28:37,027 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:28:37] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-26 17:28:37,028 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:28:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 17:30:05,231 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:30:05] "GET / HTTP/1.1" 200 -
+2025-05-26 17:30:05,250 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:30:05] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-26 17:30:05,251 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:30:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 17:56:04,658 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:56:04] "GET / HTTP/1.1" 200 -
+2025-05-26 17:56:04,688 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:56:04] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-26 17:56:04,689 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:56:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 17:57:44,870 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:57:44] "POST /analyze HTTP/1.1" 200 -
+2025-05-26 17:57:55,929 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 17:57:55] "POST /analyze HTTP/1.1" 200 -
+2025-05-26 19:07:33,899 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3334
+ * Running on http://192.168.1.3:3334
+2025-05-26 19:07:33,900 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 19:07:33,901 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 19:07:34,514 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 19:07:34,523 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-26 19:10:33,984 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 19:10:33] "GET / HTTP/1.1" 200 -
+2025-05-26 19:10:34,007 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 19:10:34] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-26 19:10:34,008 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 19:10:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 19:14:04,412 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3333
+ * Running on http://192.168.1.3:3333
+2025-05-26 19:14:04,412 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 19:14:04,412 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 19:14:04,973 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 19:14:04,979 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-26 19:35:02,858 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3333
+ * Running on http://192.168.1.3:3333
+2025-05-26 19:35:02,859 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 19:35:02,859 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 19:35:03,431 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 19:35:03,438 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-26 19:36:27,968 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3333
+ * Running on http://192.168.1.3:3333
+2025-05-26 19:36:27,968 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 19:36:27,969 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 19:36:28,540 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 19:36:28,545 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-26 19:37:53,108 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 19:37:53] "GET / HTTP/1.1" 200 -
+2025-05-26 19:37:53,135 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 19:37:53] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-26 19:37:53,136 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 19:37:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 19:37:53,794 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 19:37:53] "GET / HTTP/1.1" 200 -
+2025-05-26 19:37:53,813 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 19:37:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 19:37:53,813 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 19:37:53] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-26 21:43:15,201 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3333
+ * Running on http://192.168.1.3:3333
+2025-05-26 21:43:15,201 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 21:43:15,201 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 21:43:15,767 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 21:43:15,774 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-26 21:45:11,192 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-26 21:45:11,193 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 21:46:28,786 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:46:28] "GET / HTTP/1.1" 200 -
+2025-05-26 21:46:28,801 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:46:28] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-26 21:46:28,802 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:46:28] "GET /static/custom.css HTTP/1.1" 200 -
+2025-05-26 21:46:29,076 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:46:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-26 21:50:52,392 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-26 21:50:52,392 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 21:51:24,957 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:51:24] "GET / HTTP/1.1" 200 -
+2025-05-26 21:51:24,968 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:51:24] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-26 21:51:24,968 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:51:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 21:51:29,340 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:51:29] "GET / HTTP/1.1" 200 -
+2025-05-26 21:51:29,345 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:51:29] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-26 21:51:29,345 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:51:29] "GET /static/custom.css HTTP/1.1" 200 -
+2025-05-26 21:51:29,357 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:51:29] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-26 21:51:29,357 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:51:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 21:52:09,348 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:52:09] "GET / HTTP/1.1" 200 -
+2025-05-26 21:52:09,369 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:52:09] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-26 21:52:09,370 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 21:52:09] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 21:58:07,790 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3333
+ * Running on http://192.168.1.3:3333
+2025-05-26 21:58:07,790 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 21:58:33,016 - werkzeug - INFO - 192.168.1.3 - - [26/May/2025 21:58:33] "GET / HTTP/1.1" 200 -
+2025-05-26 21:58:33,037 - werkzeug - INFO - 192.168.1.3 - - [26/May/2025 21:58:33] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-26 21:58:33,037 - werkzeug - INFO - 192.168.1.3 - - [26/May/2025 21:58:33] "GET /static/custom.css HTTP/1.1" 200 -
+2025-05-26 21:58:33,638 - werkzeug - INFO - 192.168.1.3 - - [26/May/2025 21:58:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-26 21:58:39,239 - werkzeug - INFO - 192.168.1.3 - - [26/May/2025 21:58:39] "GET / HTTP/1.1" 200 -
+2025-05-26 21:58:39,260 - werkzeug - INFO - 192.168.1.3 - - [26/May/2025 21:58:39] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-26 21:58:39,260 - werkzeug - INFO - 192.168.1.3 - - [26/May/2025 21:58:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 22:12:26,476 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-26 22:12:26,476 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 12:17:29,657 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 12:17:29] "GET / HTTP/1.1" 200 -
+2025-05-27 12:17:29,671 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 12:17:29] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 12:17:29,671 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 12:17:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 12:17:29,762 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 12:17:29] "GET / HTTP/1.1" 200 -
+2025-05-27 12:17:29,766 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 12:17:29] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 12:17:29,767 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 12:17:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 17:35:52,466 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-27 17:35:52,467 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 17:35:52,467 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 17:35:53,055 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 17:35:53,061 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-27 17:38:48,675 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-27 17:38:48,676 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 17:38:48,676 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 17:38:49,235 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 17:38:49,242 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-27 17:44:59,178 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 17:44:59] "GET / HTTP/1.1" 200 -
+2025-05-27 17:44:59,190 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 17:44:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 17:44:59,190 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 17:44:59] "GET /static/custom.css HTTP/1.1" 200 -
+2025-05-27 17:44:59,365 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 17:44:59] "GET / HTTP/1.1" 200 -
+2025-05-27 17:44:59,368 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 17:44:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 17:44:59,368 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 17:44:59] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 17:44:59,376 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 17:44:59] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 17:44:59,376 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 17:44:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 17:47:49,836 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 17:47:49] "GET / HTTP/1.1" 200 -
+2025-05-27 17:47:49,855 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 17:47:49] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 17:47:49,855 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 17:47:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:07:40,090 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-27 18:07:40,090 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 18:08:06,285 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:08:06] "GET / HTTP/1.1" 200 -
+2025-05-27 18:08:06,296 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:08:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:08:06,296 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:08:06] "GET /static/custom.css HTTP/1.1" 200 -
+2025-05-27 18:08:06,300 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:08:06] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 18:08:06,300 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:08:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:11:24,361 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:24] "GET / HTTP/1.1" 200 -
+2025-05-27 18:11:24,364 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:11:24,365 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:24] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 18:11:24,377 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:24] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 18:11:24,378 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:11:24,588 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:24] "GET / HTTP/1.1" 200 -
+2025-05-27 18:11:24,590 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:24] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 18:11:24,591 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:11:24,600 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:24] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 18:11:24,600 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:11:45,951 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:45] "POST /analyze HTTP/1.1" 200 -
+2025-05-27 18:11:54,299 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:54] "GET / HTTP/1.1" 200 -
+2025-05-27 18:11:54,318 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:54] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 18:11:54,318 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:11:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:19:41,451 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-27 18:19:41,452 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 18:19:41,452 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 18:19:42,066 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 18:19:42,072 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-27 18:19:56,143 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:19:56] "GET / HTTP/1.1" 200 -
+2025-05-27 18:19:56,153 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:19:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:19:56,153 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:19:56] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 18:19:56,325 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:19:56] "GET / HTTP/1.1" 200 -
+2025-05-27 18:19:56,328 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:19:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:19:56,328 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:19:56] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 18:19:56,336 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:19:56] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 18:19:56,336 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:19:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:25:40,532 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:25:40] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-05-27 18:25:40,533 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:25:40] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-05-27 18:25:40,534 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:25:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-27 18:26:13,155 - werkzeug - ERROR - 127.0.0.1 - - [27/May/2025 18:26:13] code 400, message Bad request version ('Þ(\\¾\x9dàI\x93*Ò@~0\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-05-27 18:26:13,155 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:26:13] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ÕÉ·Ì\x8cCÒ\x1c\x99f<\x93§çÐº\x0e\x00]Ð\\\x9e=5¬`¯ÝM9t  \x85{8(9_Å¯Ô\x9e\x7fOÎÙ\x9eâHh Þ(\\¾\x9dàI\x93*Ò@~0\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-05-27 18:26:13,159 - werkzeug - ERROR - 127.0.0.1 - - [27/May/2025 18:26:13] code 400, message Bad request version ('!ùd\x7f®Í\x11A`\x8f\x18ºU\x00Á\x8eÙ\x9eTæOJ<Ò\x00,ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+2025-05-27 18:26:13,159 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:26:13] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03»4nOa¸Ç´©\x95KeûG\x1e,~ViÁË×P\x93\x18\x07ñ>&\x8f»\x93 yvë\x9cëu#\x1f!ùd\x7f®Í\x11A`\x8f\x18ºU\x00Á\x8eÙ\x9eTæOJ<Ò\x00,ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À[0m" 400 -
+2025-05-27 18:26:13,164 - werkzeug - ERROR - 127.0.0.1 - - [27/May/2025 18:26:13] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00}\x01\x00\x00y\x03\x01\x97Æ\x94ô1%Ð\x87ø<ÂQö\x01ò/\x868p¨x:Q_\x8f2')
+2025-05-27 18:26:13,164 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:26:13] "[31m[1m\x16\x03\x01\x00}\x01\x00\x00y\x03\x01\x97Æ\x94ô1%Ð\x87ø<ÂQö\x01ò/\x868p¨x:Q_\x8f2 Þ1h8Ð\x00\x00\x14À[0m" 400 -
+2025-05-27 18:26:34,611 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:26:34] "GET / HTTP/1.1" 200 -
+2025-05-27 18:26:34,630 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:26:34] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 18:26:34,630 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:26:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:35:06,296 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:35:06] "GET / HTTP/1.1" 200 -
+2025-05-27 18:35:06,299 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:35:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:35:06,299 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:35:06] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 18:35:06,309 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:35:06] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-27 18:35:06,309 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:35:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-27 18:42:31,348 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 18:42:31] "GET /static/custom.css HTTP/1.1" 200 -
+2025-05-27 20:18:31,919 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-27 20:18:31,919 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 20:18:31,919 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 20:18:32,511 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 20:18:32,519 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-27 20:22:33,317 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-27 20:22:33,317 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 20:46:17,091 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 20:46:17,092 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 20:46:17,092 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 20:46:17,655 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 20:46:17,662 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-27 23:30:07,334 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-27 23:30:07,334 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 23:30:07,335 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 23:30:07,941 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 23:30:07,948 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-28 01:01:07,767 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 01:01:07] "GET / HTTP/1.1" 200 -
+2025-05-28 01:01:07,781 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 01:01:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 01:01:07,781 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 01:01:07] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 01:01:07,976 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 01:01:07] "GET / HTTP/1.1" 200 -
+2025-05-28 01:01:07,979 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 01:01:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 01:01:07,979 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 01:01:07] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 01:01:07,986 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 01:01:07] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 01:01:07,986 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 01:01:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 01:01:16,032 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 01:01:16] "POST /analyze HTTP/1.1" 200 -
+2025-05-28 12:51:05,320 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 12:51:05] "GET / HTTP/1.1" 200 -
+2025-05-28 12:51:05,324 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 12:51:05] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 12:51:05,324 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 12:51:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 12:51:06,041 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 12:51:06] "GET / HTTP/1.1" 200 -
+2025-05-28 12:51:06,043 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 12:51:06] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 12:51:06,044 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 12:51:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 12:51:06,053 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 12:51:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 12:51:06,053 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 12:51:06] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 12:51:48,523 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 12:51:48] "POST /analyze HTTP/1.1" 200 -
+2025-05-28 12:52:13,346 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='www.mlrit.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1091206e0>, 'Connection to www.mlrit.ac.in timed out. (connect timeout=5)'))
+2025-05-28 12:52:13,399 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 12:52:13] "POST /analyze HTTP/1.1" 200 -
+2025-05-28 12:53:29,513 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 12:53:29] "POST /analyze HTTP/1.1" 200 -
+2025-05-28 12:54:02,984 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='www.mlrit.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x108d57390>, 'Connection to www.mlrit.ac.in timed out. (connect timeout=5)'))
+2025-05-28 12:54:03,028 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 12:54:03] "POST /analyze HTTP/1.1" 200 -
+2025-05-28 14:27:42,166 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='www.mlrit.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x109fa4910>, 'Connection to www.mlrit.ac.in timed out. (connect timeout=5)'))
+2025-05-28 14:27:42,229 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 14:27:42] "POST /analyze HTTP/1.1" 200 -
+2025-05-28 14:27:51,763 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 14:27:51] "POST /analyze HTTP/1.1" 200 -
+2025-05-28 21:58:31,596 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-28 21:58:31,596 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 21:58:31,597 - werkzeug - INFO -  * Restarting with stat
+2025-05-28 21:58:32,179 - werkzeug - WARNING -  * Debugger is active!
+2025-05-28 21:58:32,186 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-28 21:58:40,777 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 21:58:40] "GET / HTTP/1.1" 200 -
+2025-05-28 21:58:40,786 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 21:58:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 21:58:40,786 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 21:58:40] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 21:58:40,791 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 21:58:40] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 21:58:40,792 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 21:58:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 21:58:40,997 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 21:58:40] "GET / HTTP/1.1" 200 -
+2025-05-28 21:58:41,000 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 21:58:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 21:58:41,000 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 21:58:41] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 21:58:41,009 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 21:58:41] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 21:58:41,011 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 21:58:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 22:02:10,242 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-28 22:02:10,243 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 22:02:10,243 - werkzeug - INFO -  * Restarting with stat
+2025-05-28 22:02:10,819 - werkzeug - WARNING -  * Debugger is active!
+2025-05-28 22:02:10,825 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-28 22:02:18,131 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:02:18] "GET / HTTP/1.1" 200 -
+2025-05-28 22:02:18,140 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:02:18] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 22:02:18,141 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:02:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 22:02:18,291 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:02:18] "GET / HTTP/1.1" 200 -
+2025-05-28 22:02:18,294 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:02:18] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 22:02:18,295 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:02:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 22:32:11,650 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-28 22:32:11,650 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-28 22:32:11,651 - werkzeug - INFO -  * Restarting with stat
+2025-05-28 22:32:12,224 - werkzeug - WARNING -  * Debugger is active!
+2025-05-28 22:32:12,231 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-28 22:32:30,148 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:32:30] "GET / HTTP/1.1" 200 -
+2025-05-28 22:32:30,158 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:32:30] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 22:32:30,158 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:32:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 22:32:30,375 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:32:30] "GET / HTTP/1.1" 200 -
+2025-05-28 22:32:30,377 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:32:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 22:32:30,378 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:32:30] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 22:32:30,386 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:32:30] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-28 22:32:30,386 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:32:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-28 22:32:36,623 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:32:36] "POST /analyze HTTP/1.1" 200 -
+2025-05-28 22:33:32,405 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:33:32] "POST /analyze HTTP/1.1" 200 -
+2025-05-28 22:33:37,752 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:33:37] "POST /analyze HTTP/1.1" 200 -
+2025-05-28 22:33:40,651 - werkzeug - INFO - 127.0.0.1 - - [28/May/2025 22:33:40] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 09:38:11,120 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-30 09:38:11,120 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-30 09:38:11,120 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 09:38:11,696 - werkzeug - WARNING -  * Debugger is active!
+2025-05-30 09:38:11,701 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-30 09:38:20,865 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 09:38:20] "GET / HTTP/1.1" 200 -
+2025-05-30 09:38:20,876 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 09:38:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 09:38:20,877 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 09:38:20] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 09:38:20,966 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 09:38:20] "GET / HTTP/1.1" 200 -
+2025-05-30 09:38:20,971 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 09:38:20] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 09:38:20,972 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 09:38:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 09:38:41,979 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 09:38:41] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 09:38:56,371 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 09:38:56] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 09:43:49,734 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 09:43:49] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 09:45:06,349 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 09:45:06] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 09:45:41,047 - feature_extractor - ERROR - Error getting domain features: % This is the ISNIC Whois server.
+%
+% Rights restricted by copyright.
+% See https://www.isnic.is/en/about/copyright
+
+%
+% No entries found for query "hiani.is".
+
+2025-05-30 09:45:44,521 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='hiani.is', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1080d91d0>: Failed to resolve 'hiani.is' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-05-30 09:45:44,577 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 09:45:44] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 10:52:18,971 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-30 10:52:18,971 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-30 10:52:18,972 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 10:52:19,577 - werkzeug - WARNING -  * Debugger is active!
+2025-05-30 10:52:19,583 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-30 10:52:26,237 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:26] "GET / HTTP/1.1" 200 -
+2025-05-30 10:52:26,250 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 10:52:26,250 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:26] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 10:52:26,255 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:26] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 10:52:26,255 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 10:52:27,454 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:27] "GET / HTTP/1.1" 200 -
+2025-05-30 10:52:27,458 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 10:52:27,458 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:27] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 10:52:27,471 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:27] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 10:52:27,472 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 10:52:27,773 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:27] "GET / HTTP/1.1" 200 -
+2025-05-30 10:52:27,775 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:27] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 10:52:27,775 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 10:52:27,785 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 10:52:27,785 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:52:27] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 10:53:24,108 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:53:24] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 10:53:42,409 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:53:42] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 10:54:35,837 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:54:35] "GET / HTTP/1.1" 200 -
+2025-05-30 10:54:35,839 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:54:35] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 10:54:35,842 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 10:54:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 13:59:58,935 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-30 13:59:58,935 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-30 13:59:58,936 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 13:59:59,550 - werkzeug - WARNING -  * Debugger is active!
+2025-05-30 13:59:59,556 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-30 14:00:10,028 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:00:10] "GET / HTTP/1.1" 200 -
+2025-05-30 14:00:10,039 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:00:10] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 14:00:10,040 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:00:10] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 14:00:11,747 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:00:11] "GET / HTTP/1.1" 200 -
+2025-05-30 14:00:11,749 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:00:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 14:00:11,750 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:00:11] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 14:01:26,369 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:01:26] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 14:01:26,522 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-30 14:01:26,522 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:01:26] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-30 14:02:58,038 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:02:58] "GET / HTTP/1.1" 200 -
+2025-05-30 14:02:58,059 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:02:58] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 14:02:58,060 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:02:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 14:04:49,795 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-30 14:04:49,796 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:04:49] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-30 14:04:49,822 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:04:49] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 14:04:54,917 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-30 14:04:54,918 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:04:54] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-30 14:04:54,945 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:04:54] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 14:53:54,369 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-30 14:53:54,370 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-30 14:53:54,370 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 14:53:54,968 - werkzeug - WARNING -  * Debugger is active!
+2025-05-30 14:53:54,975 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-30 14:54:04,836 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:54:04] "GET / HTTP/1.1" 200 -
+2025-05-30 14:54:04,845 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:54:04] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 14:54:04,846 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:54:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 14:54:04,852 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:54:04] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 14:54:04,853 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:54:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 14:54:05,144 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:54:05] "GET / HTTP/1.1" 200 -
+2025-05-30 14:54:05,147 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:54:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 14:54:05,148 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:54:05] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 14:54:05,157 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:54:05] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 14:54:05,158 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:54:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 14:54:12,880 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:54:12] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 14:54:12,948 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-30 14:54:12,948 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:54:12] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-30 14:56:28,735 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-30 14:56:28,738 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:56:28] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-30 14:56:28,764 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:56:28] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 14:56:44,321 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:56:44] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 14:56:44,399 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-30 14:56:44,400 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 14:56:44] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-30 15:00:30,015 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-30 15:00:30,016 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 15:00:30] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-30 15:00:30,033 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 15:00:30] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 15:00:50,721 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 15:00:50] "GET / HTTP/1.1" 200 -
+2025-05-30 15:00:50,741 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 15:00:50] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-30 15:00:50,741 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 15:00:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-30 15:03:41,402 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-30 15:03:41,404 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 15:03:41] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 15:03:41,404 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 15:03:41] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-30 15:07:03,269 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-30 15:07:03,271 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 15:07:03] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-30 15:07:03,288 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 15:07:03] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 15:10:40,161 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-30 15:10:40,164 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 15:10:40] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-30 15:10:40,234 - werkzeug - INFO - 127.0.0.1 - - [30/May/2025 15:10:40] "POST /analyze HTTP/1.1" 200 -
+2025-05-30 19:18:20,946 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-30 19:18:20,947 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-30 19:18:20,947 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 19:18:21,521 - werkzeug - WARNING -  * Debugger is active!
+2025-05-30 19:18:21,527 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-31 13:17:09,216 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-05-31 13:17:09,217 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-31 13:17:09,217 - werkzeug - INFO -  * Restarting with stat
+2025-05-31 13:17:09,805 - werkzeug - WARNING -  * Debugger is active!
+2025-05-31 13:17:09,812 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-05-31 13:17:20,829 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:20] "GET / HTTP/1.1" 200 -
+2025-05-31 13:17:20,839 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:20] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-31 13:17:20,840 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:20] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-31 13:17:20,888 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:20] "GET / HTTP/1.1" 200 -
+2025-05-31 13:17:20,893 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:20] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-31 13:17:20,894 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-31 13:17:21,055 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:21] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-05-31 13:17:21,153 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:21] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-05-31 13:17:31,423 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:31] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-05-31 13:17:31,425 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:31] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-05-31 13:17:31,426 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-31 13:17:39,038 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:39] "GET / HTTP/1.1" 200 -
+2025-05-31 13:17:39,043 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:39] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-31 13:17:39,045 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-31 13:17:39,056 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:39] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-31 13:17:39,056 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-31 13:17:39,485 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:39] "GET / HTTP/1.1" 200 -
+2025-05-31 13:17:39,488 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:39] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-31 13:17:39,489 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-31 13:17:39,499 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-31 13:17:39,499 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:17:39] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-05-31 13:19:12,713 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-31 13:19:12,714 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:19:12] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-31 13:19:12,740 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:19:12] "POST /analyze HTTP/1.1" 200 -
+2025-05-31 13:19:27,649 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-31 13:19:27,649 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:19:27] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-31 13:19:27,690 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:19:27] "POST /analyze HTTP/1.1" 200 -
+2025-05-31 13:19:30,101 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-31 13:19:30,101 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:19:30] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-31 13:19:30,143 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:19:30] "POST /analyze HTTP/1.1" 200 -
+2025-05-31 13:19:32,804 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-31 13:19:32,805 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:19:32] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-31 13:19:32,861 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:19:32] "POST /analyze HTTP/1.1" 200 -
+2025-05-31 13:20:25,883 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:20:25] "POST /analyze HTTP/1.1" 200 -
+2025-05-31 13:20:26,509 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-31 13:20:26,510 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:20:26] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-31 13:25:30,993 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-31 13:25:30,995 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:25:30] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-31 13:25:31,006 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:25:31] "POST /analyze HTTP/1.1" 200 -
+2025-05-31 13:25:34,599 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:25:34] "POST /analyze HTTP/1.1" 200 -
+2025-05-31 13:25:34,639 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-31 13:25:34,640 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:25:34] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-31 13:25:48,526 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:25:48] "POST /analyze HTTP/1.1" 200 -
+2025-05-31 13:25:48,612 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-31 13:25:48,613 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:25:48] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-31 13:25:52,545 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:25:52] "POST /analyze HTTP/1.1" 200 -
+2025-05-31 13:25:52,587 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-31 13:25:52,588 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:25:52] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-31 13:26:08,860 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-31 13:26:08,860 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:26:08] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-31 13:26:08,888 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:26:08] "POST /analyze HTTP/1.1" 200 -
+2025-05-31 13:26:21,711 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-31 13:26:21,711 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:26:21] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-31 13:26:21,758 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:26:21] "POST /analyze HTTP/1.1" 200 -
+2025-05-31 13:26:25,893 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-05-31 13:26:25,894 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:26:25] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-05-31 13:26:25,940 - werkzeug - INFO - 127.0.0.1 - - [31/May/2025 13:26:25] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 19:57:24,623 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-06-02 19:57:24,623 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 19:57:24,623 - werkzeug - INFO -  * Restarting with stat
+2025-06-02 19:57:25,254 - werkzeug - WARNING -  * Debugger is active!
+2025-06-02 19:57:25,260 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-06-02 19:57:36,783 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 19:57:36] "GET / HTTP/1.1" 200 -
+2025-06-02 19:57:36,800 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 19:57:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-06-02 19:57:36,801 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 19:57:36] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-06-02 19:57:45,281 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 19:57:45] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 19:57:45,325 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 19:57:45,325 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 19:57:45] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 19:57:49,638 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 19:57:49,638 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 19:57:49] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 19:57:49,665 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 19:57:49] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 19:57:52,535 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 19:57:52,535 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 19:57:52] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 19:57:52,562 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 19:57:52] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 19:57:57,544 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 19:57:57] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 19:57:57,578 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 19:57:57,578 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 19:57:57] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 19:58:02,095 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 19:58:02,095 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 19:58:02] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 19:58:02,122 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 19:58:02] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 20:00:44,174 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-06-02 20:00:44,175 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 20:00:44,175 - werkzeug - INFO -  * Restarting with stat
+2025-06-02 20:00:44,763 - werkzeug - WARNING -  * Debugger is active!
+2025-06-02 20:00:44,770 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-06-02 20:00:53,347 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:00:53] "GET / HTTP/1.1" 200 -
+2025-06-02 20:00:53,360 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:00:53] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-06-02 20:00:53,360 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:00:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-06-02 20:00:58,514 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:00:58] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 20:00:58,515 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:00:58] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 20:01:05,751 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:01:05] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 20:01:05,773 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 20:01:05,773 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:01:05] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 20:01:09,346 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 20:01:09,347 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:01:09] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 20:01:09,369 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:01:09] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 20:01:20,124 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:01:20] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 20:01:20,141 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 20:01:20,141 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:01:20] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 20:01:32,450 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 20:01:32,452 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:01:32] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 20:01:32,492 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:01:32] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 20:01:50,556 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='www.iface', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10ab35090>: Failed to resolve 'www.iface' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-06-02 20:01:50,556 - feature_extractor - ERROR - Error getting HTML features: HTTPSConnectionPool(host='www.iface', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10ab35590>: Failed to resolve 'www.iface' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-06-02 20:01:50,558 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 20:01:50,558 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:01:50] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 20:01:50,602 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:01:50] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 20:02:00,583 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 20:02:00,583 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:02:00] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 20:02:00,610 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:02:00] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 20:02:04,556 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 20:02:04,556 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:02:04] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 20:02:04,582 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:02:04] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 20:03:15,478 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3333
+2025-06-02 20:03:15,478 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 20:03:15,478 - werkzeug - INFO -  * Restarting with stat
+2025-06-02 20:03:16,075 - werkzeug - WARNING -  * Debugger is active!
+2025-06-02 20:03:16,082 - werkzeug - INFO -  * Debugger PIN: 104-920-920
+2025-06-02 20:03:26,646 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:03:26] "GET / HTTP/1.1" 200 -
+2025-06-02 20:03:26,656 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:03:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-06-02 20:03:26,657 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:03:26] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-06-02 20:03:27,329 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:03:27] "GET / HTTP/1.1" 200 -
+2025-06-02 20:03:27,333 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:03:27] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-06-02 20:03:27,333 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:03:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-06-02 20:03:34,071 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 20:03:34,071 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:03:34] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 20:03:34,100 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:03:34] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 20:03:45,461 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:03:45] "POST /analyze HTTP/1.1" 200 -
+2025-06-02 20:03:45,483 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 20:03:45,483 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:03:45] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 20:03:59,133 - __main__ - ERROR - Error making prediction: X has 34 features, but RandomForestClassifier is expecting 30 features as input.
+2025-06-02 20:03:59,133 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:03:59] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2025-06-02 20:03:59,164 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2025 20:03:59] "POST /analyze HTTP/1.1" 200 -
